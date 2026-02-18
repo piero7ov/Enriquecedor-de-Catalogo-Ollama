@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Miniatura de personaje gamer para personalizar armadura</title>
+  <meta name="description" content="Personaliza tu armadura con la miniatura de personaje gamer en pose dinámica. Material resina, perfecta para gaming.">
+  <style>
+    body, html {
+      padding: 0;
+      margin: 0;
+      font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+      background: #f3f4f6dc;
+      color: #0f172a;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      white-space: nowrap;
+    }
+
+    header nav {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      min-width: 250px;
+    }
+
+    header nav ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    header a {
+      color: inherit;
+      text-decoration: none;
+      font-size: 1.05em;
+      font-weight: 600;
+    }
+
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 22px 16px 40px;
+      box-sizing: border-box;
+    }
+
+    .card {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(15, 23, 42, 0.08);
+      overflow: hidden;
+    }
+
+    .top {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 18px;
+      padding: 18px;
+      align-items: start;
+    }
+
+    @media (max-width: 900px) {
+      .top { grid-template-columns: 1fr; }
+    }
+
+    .media {
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 12px;
+    }
+
+    .media img {
+      width: 100%;
+      height: 360px;
+      object-fit: cover;
+      border-radius: 10px;
+      display: block;
+    }
+
+    @media (max-width: 900px) {
+      .media img { height: 280px; }
+    }
+
+    .title {
+      margin: 0 0 8px;
+      font-size: 1.6rem;
+      color: #0f172a;
+    }
+
+    .desc {
+      margin: 0 0 12px;
+      color: #6b7280;
+      line-height: 1.6;
+      font-size: 0.98rem;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 10px 0 0;
+    }
+
+    .pill {
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: #f3f4f6;
+      border: 1px solid #e5e7eb;
+      font-size: .85rem;
+      color: #111827;
+      white-space: nowrap;
+    }
+
+    .pill b {
+      color: #1e3a8a;
+    }
+
+    .priceRow {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    .price {
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #1e3a8a;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: bold;
+      border: none;
+    }
+
+    .btn:hover { filter: brightness(1.05); }
+    .btn:focus { outline: 2px solid #0ea5e9; outline-offset: 2px; }
+
+    .section {
+      padding: 0 18px 18px;
+    }
+
+    .section h2 {
+      margin: 18px 0 10px;
+      font-size: 1.1rem;
+      color: #1e3a8a;
+    }
+
+    ul.bullets {
+      margin: 0;
+      padding-left: 18px;
+      color: #111827;
+    }
+
+    .tech {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+    }
+
+    .tech td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #e5e7eb;
+      font-size: 0.95rem;
+    }
+
+    .tech tr:last-child td { border-bottom: none; }
+
+    .tech td:first-child {
+      width: 34%;
+      font-weight: bold;
+      color: #0f172a;
+      background: #f8fafc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 12px 0px;
+      margin-top: 20px;
+      font-size: 0.9rem;
+      background: linear-gradient(135deg, #152a60, #0a70a0);
+      color: white;
+    }
+    </style>
+</head>
+<body>
+
+<header>
+  <h1>Pierodev | Impresiones 3D</h1>
+  <nav>
+    <ul>
+      <li><a href='../index.php'>Inicio</a></li><li><a href='../nosotros.php'>Nosotros</a></li><li><a href='../contacto.php'>Contacto</a></li>
+    </ul>
+  </nav>
+  <a class="btn" href="../index.php">Volver</a>
+</header>
+
+<div class="wrap">
+  <div class="card">
+
+    <div class="top">
+      <div class="media">
+        <img src='../static/producto7.jpg' alt='Miniatura de personaje gamer'>
+      </div>
+
+      <div>
+        <h2 class="title">Miniatura de personaje gamer</h2>
+        <p class="desc">Personaliza tu armadura con la miniatura de personaje gamer en pose dinámica.</p>
+
+        <div class='meta'><span class='pill'><b>Categoria:</b> Figuras</span><span class='pill'><b>Material:</b> Resina</span><span class='pill'><b>Tamano:</b> mediano</span></div>
+
+        <div class="priceRow">
+          <span class="price">Precio: 22.00 €</span>
+          <a class="btn" href="../index.php">Seguir viendo productos</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Características</h2><ul class='bullets'><li>Material resina</li><li>Impresión 3D precisa</li><li>Categoría: Figuras</li></ul>
+      <div class='meta'><span class='pill'>Figuras gamer</span><span class='pill'>Miniaturas personajes</span><span class='pill'>Armadura custom</span><span class='pill'>Resina miniatura</span><span class='pill'>Personalizacion gamer</span><span class='pill'>Juegos electronicos</span><span class='pill'>Figuras</span><span class='pill'>Resina</span></div>
+      
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  © 2026 Pierodev
+</footer>
+
+</body>
+</html>

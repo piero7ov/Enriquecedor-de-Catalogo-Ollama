@@ -1,0 +1,309 @@
+{
+  "generated_at": "2026-02-17T23:34:59.537018Z",
+  "source_xml": "productos3d.xml",
+  "ollama": {
+    "enabled": true,
+    "url": "http://127.0.0.1:11434/api/generate",
+    "model": "qwen2.5-coder:7b",
+    "temperature": 0.2,
+    "num_predict": 260,
+    "timeouts": {
+      "connect": 10,
+      "read": 240
+    },
+    "try_format_json": true
+  },
+  "count": 9,
+  "products": [
+    {
+      "nombre": "Soporte ergonómico para monitor",
+      "descripcion": "Soporte impreso en 3D para elevar el monitor, mejorar la postura y ganar espacio en el escritorio.",
+      "imagen": "static/producto1.jpg",
+      "enlace": "producto1.html",
+      "precio": "24.90",
+      "material": "PLA",
+      "tamano": "grande",
+      "categoria": "Oficina",
+      "slug": "soporte-ergonomico-monitor",
+      "short_desc": "Soporte ergonómico para monitor impreso en 3D.",
+      "bullets": [
+        "Mejora la postura",
+        "Espacio libre en escritorio",
+        "Eleva el monitor"
+      ],
+      "tags": [
+        "soporte_ergonomico",
+        "monitor",
+        "impresion_3d",
+        "plastico",
+        "oficina",
+        "espacio_libre",
+        "postura_saludable",
+        "tecnologia_domestica",
+        "pla"
+      ],
+      "seo_title": "Soporte Ergonómico para Monitor Impreso en 3D",
+      "seo_description": "Soporte ergonómico impreso en 3D para monitor. Mejora la postura, libera espacio y eleva el monitor en tu escritorio.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Organizador modular de escritorio",
+      "descripcion": "Organizador compuesto por módulos encajables para bolígrafos, notas, USB y pequeños accesorios.",
+      "imagen": "static/producto2.jpg",
+      "enlace": "producto2.html",
+      "precio": "19.90",
+      "material": "PLA",
+      "tamano": "mediano",
+      "categoria": "Oficina",
+      "slug": "organizador-modular-escritorio",
+      "short_desc": "Organizador de escritorio multifuncional para mantener tus herramientas organizadas.",
+      "bullets": [
+        "Espacio libre en escritorio",
+        "Accesorios accesibles",
+        "Impresión 3D precisa"
+      ],
+      "tags": [
+        "organizador_escritorio",
+        "oficina",
+        "plastico",
+        "boligrafos",
+        "notas",
+        "usb",
+        "accesorios",
+        "espacio_libre",
+        "ordenador",
+        "productividad"
+      ],
+      "seo_title": "Organizador modular de escritorio - Oficina",
+      "seo_description": "Organizador multifuncional para mantener tus herramientas organizadas en el escritorio.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Base compacta para auriculares",
+      "descripcion": "Soporte vertical minimalista para auriculares, ideal para escritorios con poco espacio.",
+      "imagen": "static/producto3.jpg",
+      "enlace": "producto3.html",
+      "precio": "14.90",
+      "material": "PETG",
+      "tamano": "pequeño",
+      "categoria": "Oficina",
+      "slug": "base-compacta-auriculares",
+      "short_desc": "Soporte vertical minimalista para auriculares, ideal para escritorios con poco espacio.",
+      "bullets": [
+        "Espacio libre en escritorio",
+        "Postura más saludable",
+        "Compacto y práctico"
+      ],
+      "tags": [
+        "auriculares",
+        "soporte_vertical",
+        "minimalista",
+        "escritorios",
+        "poco_espacio",
+        "oficina",
+        "petg",
+        "compacto",
+        "practico",
+        "saludable"
+      ],
+      "seo_title": "Base compacta para auriculares minimalistas",
+      "seo_description": "Soporte vertical minimalista para auriculares, ideal para escritorios con poco espacio. Compacto y práctico.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Llavero personalizado con nickname",
+      "descripcion": "Llavero impreso en 3D con el nombre o nickname que el cliente elija, ideal para gamers y regalos.",
+      "imagen": "static/producto4.jpg",
+      "enlace": "producto4.html",
+      "precio": "7.50",
+      "material": "PLA",
+      "tamano": "pequeño",
+      "categoria": "Personalizado",
+      "slug": "llavero-personalizado-gamer",
+      "short_desc": "Llavero 3D con nombre personalizado, ideal para gamers y regalos.",
+      "bullets": [
+        "Nombre o nickname elegido",
+        "Material de alta calidad PLA",
+        "Pequeño tamaño práctico"
+      ],
+      "tags": [
+        "llaveropersonalizado",
+        "gamer",
+        "nombrepersonalizado",
+        "materialpla",
+        "regaloideales",
+        "tamanopequeno",
+        "personalizado",
+        "pla"
+      ],
+      "seo_title": "Llavero personalizado gamer con nombre elegido",
+      "seo_description": "Llavero impreso en 3D con nombre o nickname, ideal para gamers y regalos. Material de alta calidad PLA.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Placa de nombre para escritorio",
+      "descripcion": "Placa con base para escritorio con nombre, perfecta para oficinas y despachos.",
+      "imagen": "static/producto5.jpg",
+      "enlace": "producto5.html",
+      "precio": "15.00",
+      "material": "PLA",
+      "tamano": "mediano",
+      "categoria": "Personalizado",
+      "slug": "placa-nombre-escritorio",
+      "short_desc": "Placa con nombre para escritorio, ideal para oficinas y despachos.",
+      "bullets": [
+        "Nombre personalizado",
+        "Base de escritorio",
+        "Espacio libre en escritorio"
+      ],
+      "tags": [
+        "placa_nombre",
+        "escritorio_personalizado",
+        "pla",
+        "oficina_despacho",
+        "nombre_escritorio",
+        "base_escritorio",
+        "personalizado"
+      ],
+      "seo_title": "Placa de nombre para escritorio | Personalizada y funcional",
+      "seo_description": "Adquiere la placa con nombre para escritorio perfecta para oficinas y despachos. Nombre personalizado en base de escritorio.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Soporte para móvil con nombre",
+      "descripcion": "Soporte para móvil con el nombre del usuario en la base, ideal para escritorios y setups.",
+      "imagen": "static/producto6.jpg",
+      "enlace": "producto6.html",
+      "precio": "12.90",
+      "material": "PETG",
+      "tamano": "pequeño",
+      "categoria": "Personalizado",
+      "slug": "soporte-movil-nombre",
+      "short_desc": "Soporte para móvil con nombre en la base, ideal para escritorios.",
+      "bullets": [
+        "Nombre personalizado",
+        "Espacio libre en escritorio",
+        "Diseño moderno"
+      ],
+      "tags": [
+        "soporte_movil",
+        "nombre_personalizado",
+        "escritorio",
+        "petg",
+        "personalizado",
+        "diseno_contemporaneo"
+      ],
+      "seo_title": "Soporte para móvil con nombre - Personalizado y funcional",
+      "seo_description": "Compre el soporte para móvil con nombre en la base. Diseño moderno, espacio libre y personalización perfecta para escritorios.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Miniatura de personaje gamer",
+      "descripcion": "Figura en pose dinámica pensada para personalización de armadura, casco y detalles gamer.",
+      "imagen": "static/producto7.jpg",
+      "enlace": "producto7.html",
+      "precio": "22.00",
+      "material": "Resina",
+      "tamano": "mediano",
+      "categoria": "Figuras",
+      "slug": "miniatura-personaje-gamer",
+      "short_desc": "Personaliza tu armadura con la miniatura de personaje gamer en pose dinámica.",
+      "bullets": [
+        "Material resina",
+        "Impresión 3D precisa",
+        "Categoría: Figuras"
+      ],
+      "tags": [
+        "figuras_gamer",
+        "miniaturas_personajes",
+        "armadura_custom",
+        "resina_miniatura",
+        "personalizacion_gamer",
+        "juegos_electronicos",
+        "figuras",
+        "resina"
+      ],
+      "seo_title": "Miniatura de personaje gamer para personalizar armadura",
+      "seo_description": "Personaliza tu armadura con la miniatura de personaje gamer en pose dinámica. Material resina, perfecta para gaming.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Busto personalizado estilo low-poly",
+      "descripcion": "Busto impreso en 3D con rasgos simplificados tipo low-poly, ideal como pieza decorativa.",
+      "imagen": "static/producto8.jpg",
+      "enlace": "producto8.html",
+      "precio": "29.90",
+      "material": "Resina",
+      "tamano": "grande",
+      "categoria": "Figuras",
+      "slug": "busto-low-poly",
+      "short_desc": "Busto decorativo simplificado en 3D.",
+      "bullets": [
+        "Estilo low-poly",
+        "Material de alta calidad",
+        "Ideal para decoración"
+      ],
+      "tags": [
+        "figuras3d",
+        "lowpoly",
+        "resinadecorativa",
+        "bustopersonalizado",
+        "piezadecorativa",
+        "simplificado",
+        "figuras",
+        "resina"
+      ],
+      "seo_title": "Busto Low-Poly Personalizado en Resina",
+      "seo_description": "Adquiere tu busto personalizado estilo low-poly en resina. Perfecto para decoración y simplificación artística.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Mascota poligonal decorativa",
+      "descripcion": "Figura de mascota con diseño poligonal minimalista, perfecta para escritorios y estanterías.",
+      "imagen": "static/producto9.jpg",
+      "enlace": "producto9.html",
+      "precio": "18.50",
+      "material": "PLA",
+      "tamano": "pequeño",
+      "categoria": "Figuras",
+      "slug": "mascota-poligonal-decorativa",
+      "short_desc": "Figura de mascota minimalista, perfecta para escritorios y estanterías.",
+      "bullets": [
+        "Diseño poligonal elegante",
+        "Espacio libre en escritorio",
+        "Decoración minimalista"
+      ],
+      "tags": [
+        "figuras_decorativas",
+        "mascotas",
+        "plastico",
+        "minimalismo",
+        "interior",
+        "estanterias",
+        "figuras",
+        "pla"
+      ],
+      "seo_title": "Mascota Poligonal Decorativa Minimalista",
+      "seo_description": "Figura de mascota minimalista para escritorios y estanterías. Diseño poligonal en plástico.",
+      "_meta": {
+        "method": "ollama"
+      }
+    }
+  ]
+}
