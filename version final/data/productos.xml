@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<productos>
+  <producto>
+    <nombre>Soporte elevador para monitor</nombre>
+    <descripcion>Soporte impreso en 3D para elevar el monitor, mejorar la postura y ganar espacio en el escritorio.</descripcion>
+    <categoria>Oficina</categoria>
+    <material>PLA</material>
+    <precio>12.90</precio>
+    <marca>PIERODEV</marca>
+    <modelo>MON-01</modelo>
+    <color>negro</color>
+  </producto>
+  <producto>
+    <nombre>Organizador de cables para escritorio</nombre>
+    <descripcion>Canaleta compacta para ordenar cables y reducir el desorden en la zona de trabajo.</descripcion>
+    <categoria>Oficina</categoria>
+    <material>PETG</material>
+    <precio>6.50</precio>
+    <marca>PIERODEV</marca>
+    <modelo>CAB-02</modelo>
+    <color>blanco</color>
+  </producto>
+  <producto>
+    <nombre>Soporte para auriculares de escritorio</nombre>
+    <descripcion>Base para mantener los auriculares siempre a mano y liberar espacio sobre la mesa.</descripcion>
+    <categoria>Gaming</categoria>
+    <material>PLA</material>
+    <precio>9.90</precio>
+    <marca>PIERODEV</marca>
+    <modelo>AUR-01</modelo>
+    <color>gris</color>
+  </producto>
+  <producto>
+    <nombre>Maceta geométrica decorativa</nombre>
+    <descripcion>Maceta moderna para interior, ideal para suculentas y decoración minimalista.</descripcion>
+    <categoria>Hogar</categoria>
+    <material>PLA</material>
+    <precio>8.90</precio>
+    <marca>PIERODEV</marca>
+    <modelo>MAC-03</modelo>
+    <color>terracota</color>
+  </producto>
+  <producto>
+    <nombre>Llaveros personalizados (pack)</nombre>
+    <descripcion>Pack de llaveros impresos en 3D personalizables con texto corto o iniciales.</descripcion>
+    <categoria>Personalizado</categoria>
+    <material>PLA</material>
+    <precio>7.90</precio>
+    <marca>PIERODEV</marca>
+    <modelo>KEY-10</modelo>
+    <color>multicolor</color>
+  </producto>
+  <producto>
+    <nombre>Soporte para mando de consola</nombre>
+    <descripcion>Base estable para apoyar el mando y mantener la zona gaming más ordenada.</descripcion>
+    <categoria>Gaming</categoria>
+    <material>PETG</material>
+    <precio>10.90</precio>
+    <marca>PIERODEV</marca>
+    <modelo>PAD-02</modelo>
+    <color>negro</color>
+  </producto>
+</productos>

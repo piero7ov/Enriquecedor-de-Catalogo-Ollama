@@ -1,0 +1,155 @@
+<!-- web/index.html -->
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Catálogo (estático) - Universal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">
+        <img class="brand-logo" src="https://piero7ov.github.io/pierodev-assets/brand/pierodev/logos/solologo_negro.png"
+          alt="PIERODEV" loading="lazy" decoding="async" />
+        <div class="brand-text">
+          <h1 class="brand-title">Catálogo (Vista Universal)</h1>
+          <p class="brand-sub">Lee <code>data/productos_enriched.json</code> y muestra el resultado enriquecido.</p>
+        </div>
+      </div>
+
+      <div class="topbar-actions">
+        <span class="pill">XML → Ollama → JSON</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="toolbar">
+      <div class="toolbar-left">
+        <h2 class="section-title">Productos</h2>
+        <p class="section-sub" id="count"></p>
+      </div>
+
+      <div class="toolbar-right">
+        <input id="q" class="input" type="search" placeholder="Buscar por nombre o descripción…" />
+        <select id="cat" class="select">
+          <option value="">Todas las categorías</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="grid" class="grid" aria-live="polite"></div>
+  </main>
+
+  <footer class="wrap footer">
+    <span>Vista estática de información · PieroDev</span>
+  </footer>
+
+  <script>
+    const state = {
+      productos: [],
+      q: "",
+      cat: ""
+    };
+
+    function h(s) { return String(s ?? ""); }
+
+    function render() {
+      const grid = document.querySelector("#grid");
+      const count = document.querySelector("#count");
+
+      const q = state.q.trim().toLowerCase();
+      const cat = state.cat;
+
+      const filtered = state.productos.filter(p => {
+        const okCat = !cat || (h(p.categoria) === cat);
+        const hay = (h(p.nombre) + " " + h(p.descripcion) + " " + h(p.short_desc)).toLowerCase();
+        const okQ = !q || hay.includes(q);
+        return okCat && okQ;
+      });
+
+      count.textContent = `${filtered.length} producto(s)`;
+
+      grid.innerHTML = "";
+      filtered.forEach(p => {
+        const card = document.createElement("article");
+        card.className = "card";
+
+        const bullets = Array.isArray(p.bullets) ? p.bullets : [];
+        const tags = Array.isArray(p.tags) ? p.tags : [];
+
+        card.innerHTML = `
+          <div class="card-head">
+            <div>
+              <h3 class="card-title">${h(p.nombre) || "Producto"}</h3>
+              <div class="meta">
+                ${p.categoria ? `<span class="chip">${h(p.categoria)}</span>` : ""}
+                ${p.material ? `<span class="chip">${h(p.material)}</span>` : ""}
+                ${p.precio ? `<span class="chip chip-strong">${h(p.precio)} €</span>` : ""}
+              </div>
+            </div>
+
+            ${p.marca ? `<span class="brand-mini">${h(p.marca)}</span>` : ""}
+          </div>
+
+          <p class="desc">${h(p.short_desc) || h(p.descripcion) || ""}</p>
+
+          <ul class="bullets">
+            ${bullets.map(b => `<li>${h(b)}</li>`).join("")}
+          </ul>
+
+          <div class="tags">
+            ${tags.slice(0, 10).map(t => `<span class="tag">${h(t)}</span>`).join("")}
+          </div>
+
+          <div class="seo">
+            <div><span class="k">slug</span><span class="v">${h(p.slug)}</span></div>
+            <div><span class="k">seo_title</span><span class="v">${h(p.seo_title)}</span></div>
+            <div><span class="k">seo_description</span><span class="v">${h(p.seo_description)}</span></div>
+          </div>
+        `;
+
+        grid.appendChild(card);
+      });
+    }
+
+    function fillCategorias(productos) {
+      const sel = document.querySelector("#cat");
+      const cats = Array.from(new Set(productos.map(p => h(p.categoria)).filter(Boolean))).sort((a, b) => a.localeCompare(b, "es"));
+      cats.forEach(c => {
+        const opt = document.createElement("option");
+        opt.value = c;
+        opt.textContent = c;
+        sel.appendChild(opt);
+      });
+    }
+
+    async function load() {
+      const res = await fetch("../data/productos_enriched.json", { cache: "no-store" });
+      const data = await res.json();
+
+      state.productos = Array.isArray(data.productos) ? data.productos : [];
+
+      fillCategorias(state.productos);
+      render();
+    }
+
+    document.querySelector("#q").addEventListener("input", (e) => {
+      state.q = e.target.value;
+      render();
+    });
+
+    document.querySelector("#cat").addEventListener("change", (e) => {
+      state.cat = e.target.value;
+      render();
+    });
+
+    load();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+{
+  "productos": [
+    {
+      "nombre": "Soporte elevador para monitor",
+      "descripcion": "Soporte impreso en 3D para elevar el monitor, mejorar la postura y ganar espacio en el escritorio.",
+      "categoria": "Oficina",
+      "material": "PLA",
+      "precio": "12.90",
+      "marca": "PIERODEV",
+      "modelo": "MON-01",
+      "color": "negro",
+      "slug": "pierodev-mon-01-soporte-elevador",
+      "short_desc": "Mejora la postura y ahorra espacio en el escritorio.",
+      "bullets": [
+        "Eleva tu monitor con facilidad",
+        "Ahorra espacio en el escritorio",
+        "Mejora tu postura laboral"
+      ],
+      "tags": [
+        "soporte_elevador",
+        "monitor",
+        "oficina",
+        "pierodev",
+        "pla"
+      ],
+      "seo_title": "Soporte Elevador para Monitor PIERODEV",
+      "seo_description": "Mejora la postura y ahorra espacio en el escritorio con este soporte elevador para monitor de PIERODEV."
+    },
+    {
+      "nombre": "Organizador de cables para escritorio",
+      "descripcion": "Canaleta compacta para ordenar cables y reducir el desorden en la zona de trabajo.",
+      "categoria": "Oficina",
+      "material": "PETG",
+      "precio": "6.50",
+      "marca": "PIERODEV",
+      "modelo": "CAB-02",
+      "color": "blanco",
+      "slug": "pierodev-cab-02",
+      "short_desc": "Reduce el desorden en tu zona de trabajo con este organizador de cables compacto.",
+      "bullets": [
+        "Ordena tus cables en un solo",
+        "Reduce el tiempo de búsqueda y",
+        "Evita daños a tus dispositivos"
+      ],
+      "tags": [
+        "organizador_de_cables",
+        "oficina",
+        "pierodev",
+        "petg",
+        "categoria_oficina",
+        "marca_pierodev"
+      ],
+      "seo_title": "Organizador de cables para escritorio",
+      "seo_description": "Reduce el desorden en tu zona de trabajo con este organizador de cables compacto y fiable."
+    },
+    {
+      "nombre": "Soporte para auriculares de escritorio",
+      "descripcion": "Base para mantener los auriculares siempre a mano y liberar espacio sobre la mesa.",
+      "categoria": "Gaming",
+      "material": "PLA",
+      "precio": "9.90",
+      "marca": "PIERODEV",
+      "modelo": "AUR-01",
+      "color": "gris",
+      "slug": "pierodev-soporte-auriculares",
+      "short_desc": "Mantén tus auriculares siempre a mano y libera espacio sobre la mesa.",
+      "bullets": [
+        "Evita pérdidas de auriculares",
+        "Ahorra espacio en tu escritorio",
+        "Fácil acceso a tus audífonos"
+      ],
+      "tags": [
+        "pierodev",
+        "soporte",
+        "auriculares",
+        "gaming",
+        "plastic",
+        "oficina",
+        "pla"
+      ],
+      "seo_title": "Soporte para Auriculares",
+      "seo_description": "Base para mantener los auriculares siempre a mano y liberar espacio sobre la mesa."
+    },
+    {
+      "nombre": "Maceta geométrica decorativa",
+      "descripcion": "Maceta moderna para interior, ideal para suculentas y decoración minimalista.",
+      "categoria": "Hogar",
+      "material": "PLA",
+      "precio": "8.90",
+      "marca": "PIERODEV",
+      "modelo": "MAC-03",
+      "color": "terracota",
+      "slug": "pierodev-maceta-geometrica-decorativa",
+      "short_desc": "Macetas modernas para interiores con estilo minimalista.",
+      "bullets": [
+        "Decoración fácil y rápida",
+        "Mejora la estética de tu hogar",
+        "Ideal para suculentas y plantas"
+      ],
+      "tags": [
+        "pierodev",
+        "maceta",
+        "decorativa",
+        "hogar",
+        "interior",
+        "minimalista",
+        "plastic",
+        "pla"
+      ],
+      "seo_title": "Macetas decorativas modernas",
+      "seo_description": "Descubre las macetas geométricas decorativas de PIERODEV, ideales para interiores y suculentas."
+    },
+    {
+      "nombre": "Llaveros personalizados (pack)",
+      "descripcion": "Pack de llaveros impresos en 3D personalizables con texto corto o iniciales.",
+      "categoria": "Personalizado",
+      "material": "PLA",
+      "precio": "7.90",
+      "marca": "PIERODEV",
+      "modelo": "KEY-10",
+      "color": "multicolor",
+      "slug": "pierodev-llaveros-personalizados-pack",
+      "short_desc": "Llaveros personalizables con texto corto o iniciales.",
+      "bullets": [
+        "Impresión en 3D personalizada",
+        "Pack de llaveros para regalar",
+        "Diseño único y personalizado"
+      ],
+      "tags": [
+        "pierodev",
+        "llavero",
+        "personalizado",
+        "pack",
+        "regalo",
+        "impreso_en_3d",
+        "pla"
+      ],
+      "seo_title": "Llaveros Personalizados Pack",
+      "seo_description": "Compre un pack de llaveros impresos en 3D personalizables con texto corto o iniciales. Regalos únicos y personales."
+    },
+    {
+      "nombre": "Soporte para mando de consola",
+      "descripcion": "Base estable para apoyar el mando y mantener la zona gaming más ordenada.",
+      "categoria": "Gaming",
+      "material": "PETG",
+      "precio": "10.90",
+      "marca": "PIERODEV",
+      "modelo": "PAD-02",
+      "color": "negro",
+      "slug": "pierodev-pad-02-soporte-mando-consola",
+      "short_desc": "Apoya el mando y ordena tu zona gaming",
+      "bullets": [
+        "Mantén la zona limpia",
+        "Evita pérdidas de espacio",
+        "Disfruta sin distracciones"
+      ],
+      "tags": [
+        "gaming",
+        "soporte",
+        "mando",
+        "pierodev",
+        "petg"
+      ],
+      "seo_title": "Soporte para mando de consola PIERODEV PAD-02",
+      "seo_description": "Base estable para apoyar el mando y mantener la zona gaming más ordenada con PIERODEV"
+    }
+  ]
+}
