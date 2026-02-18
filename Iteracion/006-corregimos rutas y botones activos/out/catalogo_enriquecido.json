@@ -1,0 +1,289 @@
+{
+  "generated_at": "2026-02-17T21:28:42.232733Z",
+  "source_xml": "productos3d.xml",
+  "ollama": {
+    "enabled": true,
+    "url": "http://127.0.0.1:11434/api/generate",
+    "model": "qwen2.5-coder:7b",
+    "temperature": 0.2,
+    "num_predict": 220,
+    "timeouts": {
+      "connect": 10,
+      "read": 240
+    },
+    "try_format_json": true
+  },
+  "count": 9,
+  "products": [
+    {
+      "nombre": "Soporte ergonómico para monitor",
+      "descripcion": "Soporte impreso en 3D para elevar el monitor, mejorar la postura y ganar espacio en el escritorio.",
+      "imagen": "static/producto1.jpg",
+      "enlace": "producto1.html",
+      "precio": "24.90",
+      "material": "PLA",
+      "tamano": "grande",
+      "categoria": "Oficina",
+      "slug": "soporte-ergonomico-monitor",
+      "short_desc": "Soporte impreso en 3D para monitores, mejora la postura y libera espacio.",
+      "bullets": [
+        "Ergonómico para monitores",
+        "Impreso en PLA de alta calidad",
+        "Aumenta el espacio en el escritorio"
+      ],
+      "tags": [
+        "oficina",
+        "monitores",
+        "pla",
+        "postura_ergónica",
+        "espacio_libre",
+        "3d"
+      ],
+      "seo_title": "Soporte Ergonómico para Monitores - Oficina",
+      "seo_description": "Mejora tu postura y libera espacio con nuestro soporte ergonómico impreso en PLA para monitores.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Organizador modular de escritorio",
+      "descripcion": "Organizador compuesto por módulos encajables para bolígrafos, notas, USB y pequeños accesorios.",
+      "imagen": "static/producto2.jpg",
+      "enlace": "producto2.html",
+      "precio": "19.90",
+      "material": "PLA",
+      "tamano": "mediano",
+      "categoria": "Oficina",
+      "slug": "organizador-modular-escritorio",
+      "short_desc": "Organizador de oficina para bolígrafos, notas y USB.",
+      "bullets": [
+        "Módulos encajables",
+        "Tamaño mediano",
+        "Material PLA"
+      ],
+      "tags": [
+        "organizador",
+        "oficina",
+        "bolígrafos",
+        "notas",
+        "usb",
+        "pla"
+      ],
+      "seo_title": "Organizador modular de escritorio - Oficina",
+      "seo_description": "Organizador en PLA para bolígrafos, notas y USB. Tamaño mediano.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Base compacta para auriculares",
+      "descripcion": "Soporte vertical minimalista para auriculares, ideal para escritorios con poco espacio.",
+      "imagen": "static/producto3.jpg",
+      "enlace": "producto3.html",
+      "precio": "14.90",
+      "material": "PETG",
+      "tamano": "pequeño",
+      "categoria": "Oficina",
+      "slug": "base-compacta-auriculares",
+      "short_desc": "Soporte vertical minimalista para auriculares, ideal para escritorios con poco espacio.",
+      "bullets": [
+        "Minimalista y compacto",
+        "Ideal para escritorios pequeños",
+        "Soporte vertical"
+      ],
+      "tags": [
+        "oficina",
+        "auriculares",
+        "petg",
+        "pequeño",
+        "minimalista",
+        "escritorio"
+      ],
+      "seo_title": "Base compacta para auriculares minimalistas",
+      "seo_description": "Soporte vertical PETG para auriculares, ideal para escritorios pequeños y oficina.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Llavero personalizado con nickname",
+      "descripcion": "Llavero impreso en 3D con el nombre o nickname que el cliente elija, ideal para gamers y regalos.",
+      "imagen": "static/producto4.jpg",
+      "enlace": "producto4.html",
+      "precio": "7.50",
+      "material": "PLA",
+      "tamano": "pequeño",
+      "categoria": "Personalizado",
+      "slug": "llavero-personalizado-nickname",
+      "short_desc": "Llavero 3D personalizado con nombre o nickname.",
+      "bullets": [
+        "Impreso en 3D",
+        "Tamaño pequeño",
+        "Ideal para gamers"
+      ],
+      "tags": [
+        "personalizado",
+        "pla",
+        "nombre",
+        "nickname",
+        "3d",
+        "regalo"
+      ],
+      "seo_title": "Llavero Personalizado con Nickname - Impreso en 3D",
+      "seo_description": "Llavero 3D personalizado con nombre o nickname. Ideal para gamers y regalos. Material PLA, tamaño pequeño.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Placa de nombre para escritorio",
+      "descripcion": "Placa con base para escritorio con nombre, perfecta para oficinas y despachos.",
+      "imagen": "static/producto5.jpg",
+      "enlace": "producto5.html",
+      "precio": "15.00",
+      "material": "PLA",
+      "tamano": "mediano",
+      "categoria": "Personalizado",
+      "slug": "placa-nombre-escritorio",
+      "short_desc": "Placa con nombre para escritorio, tamaño mediano.",
+      "bullets": [
+        "Base de escritorio personalizada",
+        "Nombre grabado en PLA",
+        "Tamaño mediano"
+      ],
+      "tags": [
+        "personalizado",
+        "pla",
+        "escritorio",
+        "nombre",
+        "mediano",
+        "oficina"
+      ],
+      "seo_title": "Placa Nombre Escritorio Personalizada",
+      "seo_description": "Placa con nombre para escritorio en PLA, tamaño mediano. Perfecta para oficinas y despachos.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Soporte para móvil con nombre",
+      "descripcion": "Soporte para móvil con el nombre del usuario en la base, ideal para escritorios y setups.",
+      "imagen": "static/producto6.jpg",
+      "enlace": "producto6.html",
+      "precio": "12.90",
+      "material": "PETG",
+      "tamano": "pequeño",
+      "categoria": "Personalizado",
+      "slug": "soporte-movil-nombre",
+      "short_desc": "Soporte para móvil con nombre personalizado.",
+      "bullets": [
+        "Nombre del usuario en la base",
+        "Ideal para escritorios y setups",
+        "Material PETG"
+      ],
+      "tags": [
+        "personalizado",
+        "móvil",
+        "nombre",
+        "petg",
+        "escritorio",
+        "setup"
+      ],
+      "seo_title": "Soporte Móvil Personalizado con Nombre - PETG",
+      "seo_description": "Soporte para móvil con nombre personalizado en PETG. Ideal para escritorios y setups.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Miniatura de personaje gamer",
+      "descripcion": "Figura en pose dinámica pensada para personalización de armadura, casco y detalles gamer.",
+      "imagen": "static/producto7.jpg",
+      "enlace": "producto7.html",
+      "precio": "22.00",
+      "material": "Resina",
+      "tamano": "mediano",
+      "categoria": "Figuras",
+      "slug": "miniatura-personaje-gamer",
+      "short_desc": "Figura dinámica para personalización de armadura y casco.",
+      "bullets": [
+        "Pose dinámica",
+        "Personalizable",
+        "Resina"
+      ],
+      "tags": [
+        "figuras",
+        "gamer",
+        "armadura",
+        "casco",
+        "resina",
+        "mediano"
+      ],
+      "seo_title": "Miniatura de Personaje Gamer - Figura Dinámica",
+      "seo_description": "Figura en pose dinámica para personalización de armadura y casco. Miniatura gamer en resina.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Busto personalizado estilo low-poly",
+      "descripcion": "Busto impreso en 3D con rasgos simplificados tipo low-poly, ideal como pieza decorativa.",
+      "imagen": "static/producto8.jpg",
+      "enlace": "producto8.html",
+      "precio": "29.90",
+      "material": "Resina",
+      "tamano": "grande",
+      "categoria": "Figuras",
+      "slug": "busto-low-poly",
+      "short_desc": "Busto impreso en 3D low-poly, decorativo.",
+      "bullets": [
+        "Rasgos simplificados",
+        "Material: Resina",
+        "Tamaño grande"
+      ],
+      "tags": [
+        "figuras",
+        "low_poly",
+        "decorativo",
+        "resina",
+        "3d",
+        "grande"
+      ],
+      "seo_title": "Busto Low-Poly Personalizado | Figura Decorativa en Resina",
+      "seo_description": "Compre su busto personalizado estilo low-poly decorativo en resina. Tamaño grande, rasgos simplificados.",
+      "_meta": {
+        "method": "ollama"
+      }
+    },
+    {
+      "nombre": "Mascota poligonal decorativa",
+      "descripcion": "Figura de mascota con diseño poligonal minimalista, perfecta para escritorios y estanterías.",
+      "imagen": "static/producto9.jpg",
+      "enlace": "producto9.html",
+      "precio": "18.50",
+      "material": "PLA",
+      "tamano": "pequeño",
+      "categoria": "Figuras",
+      "slug": "mascota-poligonal-decorativa",
+      "short_desc": "Figura de mascota minimalista poligonal, perfecta para escritorios y estanterías.",
+      "bullets": [
+        "Diseño minimalista poligonal",
+        "Perfecta para escritorios y estanterías",
+        "Material: PLA"
+      ],
+      "tags": [
+        "figuras",
+        "mascotas",
+        "decorativas",
+        "pla",
+        "pequeñas",
+        "minimalistas"
+      ],
+      "seo_title": "Mascota Poligonal Decorativa - Figura Minimalista de Mascota",
+      "seo_description": "Adquiere la mascota poligonal decorativa minimalista perfecta para escritorios y estanterías. Material: PLA, tamaño pequeño.",
+      "_meta": {
+        "method": "ollama"
+      }
+    }
+  ]
+}

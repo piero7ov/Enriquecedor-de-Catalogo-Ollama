@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+  <!-- CATEGORÍA: OFICINA -->
+  <producto>
+    <nombre>Soporte ergonómico para monitor</nombre>
+    <descripcion>Soporte impreso en 3D para elevar el monitor, mejorar la postura y ganar espacio en el escritorio.</descripcion>
+    <imagen>static/producto1.jpg</imagen>
+    <enlace>producto1.html</enlace>
+    <precio>24.90</precio>
+    <material>PLA</material>
+    <tamano>grande</tamano>
+    <categoria>Oficina</categoria>
+  </producto>
+
+  <producto>
+    <nombre>Organizador modular de escritorio</nombre>
+    <descripcion>Organizador compuesto por módulos encajables para bolígrafos, notas, USB y pequeños accesorios.</descripcion>
+    <imagen>static/producto2.jpg</imagen>
+    <enlace>producto2.html</enlace>
+    <precio>19.90</precio>
+    <material>PLA</material>
+    <tamano>mediano</tamano>
+    <categoria>Oficina</categoria>
+  </producto>
+
+  <producto>
+    <nombre>Base compacta para auriculares</nombre>
+    <descripcion>Soporte vertical minimalista para auriculares, ideal para escritorios con poco espacio.</descripcion>
+    <imagen>static/producto3.jpg</imagen>
+    <enlace>producto3.html</enlace>
+    <precio>14.90</precio>
+    <material>PETG</material>
+    <tamano>pequeño</tamano>
+    <categoria>Oficina</categoria>
+  </producto>
+
+  <!-- CATEGORÍA: PERSONALIZADO -->
+  <producto>
+    <nombre>Llavero personalizado con nickname</nombre>
+    <descripcion>Llavero impreso en 3D con el nombre o nickname que el cliente elija, ideal para gamers y regalos.</descripcion>
+    <imagen>static/producto4.jpg</imagen>
+    <enlace>producto4.html</enlace>
+    <precio>7.50</precio>
+    <material>PLA</material>
+    <tamano>pequeño</tamano>
+    <categoria>Personalizado</categoria>
+  </producto>
+
+  <producto>
+    <nombre>Placa de nombre para escritorio</nombre>
+    <descripcion>Placa con base para escritorio con nombre, perfecta para oficinas y despachos.</descripcion>
+    <imagen>static/producto5.jpg</imagen>
+    <enlace>producto5.html</enlace>
+    <precio>15.00</precio>
+    <material>PLA</material>
+    <tamano>mediano</tamano>
+    <categoria>Personalizado</categoria>
+  </producto>
+
+  <producto>
+    <nombre>Soporte para móvil con nombre</nombre>
+    <descripcion>Soporte para móvil con el nombre del usuario en la base, ideal para escritorios y setups.</descripcion>
+    <imagen>static/producto6.jpg</imagen>
+    <enlace>producto6.html</enlace>
+    <precio>12.90</precio>
+    <material>PETG</material>
+    <tamano>pequeño</tamano>
+    <categoria>Personalizado</categoria>
+  </producto>
+
+  <!-- CATEGORÍA: FIGURAS -->
+  <producto>
+    <nombre>Miniatura de personaje gamer</nombre>
+    <descripcion>Figura en pose dinámica pensada para personalización de armadura, casco y detalles gamer.</descripcion>
+    <imagen>static/producto7.jpg</imagen>
+    <enlace>producto7.html</enlace>
+    <precio>22.00</precio>
+    <material>Resina</material>
+    <tamano>mediano</tamano>
+    <categoria>Figuras</categoria>
+  </producto>
+
+  <producto>
+    <nombre>Busto personalizado estilo low-poly</nombre>
+    <descripcion>Busto impreso en 3D con rasgos simplificados tipo low-poly, ideal como pieza decorativa.</descripcion>
+    <imagen>static/producto8.jpg</imagen>
+    <enlace>producto8.html</enlace>
+    <precio>29.90</precio>
+    <material>Resina</material>
+    <tamano>grande</tamano>
+    <categoria>Figuras</categoria>
+  </producto>
+
+  <producto>
+    <nombre>Mascota poligonal decorativa</nombre>
+    <descripcion>Figura de mascota con diseño poligonal minimalista, perfecta para escritorios y estanterías.</descripcion>
+    <imagen>static/producto9.jpg</imagen>
+    <enlace>producto9.html</enlace>
+    <precio>18.50</precio>
+    <material>PLA</material>
+    <tamano>pequeño</tamano>
+    <categoria>Figuras</categoria>
+  </producto>
+
+</productos>
