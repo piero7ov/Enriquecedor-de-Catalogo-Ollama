@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productPage lang="es" type="generic_product" version="1.0">
+  <meta>
+    <slug>mi-producto-demo</slug>
+    <title>Mi Producto Demo</title>
+    <category>Servicio / Tienda / App</category>
+
+    <audience>
+      <segment>Clientes finales</segment>
+      <segment>Empresas</segment>
+    </audience>
+
+    <ctaPrimary>Contactar</ctaPrimary>
+    <ctaSecondary>Ver catálogo</ctaSecondary>
+  </meta>
+
+  <hero>
+    <name>Mi Producto Demo</name>
+    <valueProposition>Una propuesta de valor clara en una frase.</valueProposition>
+    <subtitle>Explica en 1-2 líneas qué hace y por qué importa.</subtitle>
+  </hero>
+
+  <problem>
+    <items>
+      <item>Problema 1 que resuelve.</item>
+      <item>Problema 2 típico.</item>
+    </items>
+  </problem>
+
+  <solution>
+    <overview>Resumen de cómo lo solucionas.</overview>
+    <whatChanges>
+      <change>Qué cambia 1</change>
+      <change>Qué cambia 2</change>
+    </whatChanges>
+  </solution>
+
+  <keyFeatures>
+    <feature>
+      <name>Feature 1</name>
+      <benefit>Beneficio 1</benefit>
+    </feature>
+    <feature>
+      <name>Feature 2</name>
+      <benefit>Beneficio 2</benefit>
+    </feature>
+  </keyFeatures>
+
+  <benefits>
+    <items>
+      <item>Beneficio general 1.</item>
+      <item>Beneficio general 2.</item>
+    </items>
+  </benefits>
+
+  <!--
+    DOMAIN: aquí metes lo específico según el tipo de producto.
+    El script lo leerá automático (sin que tengamos que hardcodear).
+  -->
+  <domain>
+    <field name="business_model" type="string">servicio</field>
+    <field name="currency" type="string">EUR</field>
+
+    <!-- Ejemplo si fuera impresiones 3D -->
+    <materials>
+      <material name="PLA" price_per_kg="18" />
+      <material name="PETG" price_per_kg="22" />
+    </materials>
+
+    <printers>
+      <printer name="Ender 3" technology="FDM" volume="220x220x250" nozzle="0.4" />
+    </printers>
+
+    <order_flow>
+      <status>nuevo</status>
+      <status>presupuestado</status>
+      <status>pagado</status>
+      <status>en_impresion</status>
+      <status>postproceso</status>
+      <status>enviado</status>
+      <status>entregado</status>
+    </order_flow>
+  </domain>
+
+  <faq>
+    <qa>
+      <q>¿Pregunta frecuente?</q>
+      <a>Respuesta breve.</a>
+    </qa>
+  </faq>
+</productPage>

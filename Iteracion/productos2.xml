@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+  <!-- CATEGORÍA: MERINO -->
+  <producto>
+    <nombre>Lana Merino Suave 100g</nombre>
+    <descripcion>Ovillo de merino extra suave, ideal para prendas cálidas y delicadas con la piel. Buen drapeado y acabado uniforme.</descripcion>
+    <imagen>static/lanas/merino1.jpg</imagen>
+    <enlace>merino-suave-100g.html</enlace>
+    <precio>6.90</precio>
+    <material>Merino</material>
+    <grosor>DK</grosor>
+    <color>Crema</color>
+    <metros>230</metros>
+    <lavado>Lavado a mano / frío</lavado>
+    <categoria>Merino</categoria>
+  </producto>
+
+  <producto>
+    <nombre>Lana Merino Tweed 100g</nombre>
+    <descripcion>Merino con motitas tipo tweed para proyectos con textura y personalidad. Perfecta para gorros, cuellos y jerséis.</descripcion>
+    <imagen>static/lanas/merino2.jpg</imagen>
+    <enlace>merino-tweed-100g.html</enlace>
+    <precio>7.50</precio>
+    <material>Merino</material>
+    <grosor>Worsted</grosor>
+    <color>Gris jaspeado</color>
+    <metros>200</metros>
+    <lavado>Lavado a mano</lavado>
+    <categoria>Merino</categoria>
+  </producto>
+
+  <!-- CATEGORÍA: ALPACA -->
+  <producto>
+    <nombre>Lana Alpaca Cálida 50g</nombre>
+    <descripcion>Alpaca con tacto sedoso y gran capacidad térmica. Ideal para accesorios de invierno y prendas ligeras pero abrigadas.</descripcion>
+    <imagen>static/lanas/alpaca1.jpg</imagen>
+    <enlace>alpaca-calida-50g.html</enlace>
+    <precio>5.20</precio>
+    <material>Alpaca</material>
+    <grosor>Fingering</grosor>
+    <color>Chocolate</color>
+    <metros>175</metros>
+    <lavado>Lavado a mano / secado plano</lavado>
+    <categoria>Alpaca</categoria>
+  </producto>
+
+  <producto>
+    <nombre>Alpaca Mezcla Premium 100g</nombre>
+    <descripcion>Mezcla premium con alpaca para un acabado esponjoso y elegante. Recomendado para chales, bufandas y cárdigans.</descripcion>
+    <imagen>static/lanas/alpaca2.jpg</imagen>
+    <enlace>alpaca-mezcla-premium-100g.html</enlace>
+    <precio>8.90</precio>
+    <material>Alpaca</material>
+    <grosor>DK</grosor>
+    <color>Azul noche</color>
+    <metros>240</metros>
+    <lavado>Lavado a mano</lavado>
+    <categoria>Alpaca</categoria>
+  </producto>
+
+  <!-- CATEGORÍA: ALGODÓN -->
+  <producto>
+    <nombre>Algodón Peinado 50g</nombre>
+    <descripcion>Hilo de algodón peinado con acabado limpio, ideal para amigurumis, tops de verano y proyectos frescos.</descripcion>
+    <imagen>static/lanas/algodon1.jpg</imagen>
+    <enlace>algodon-peinado-50g.html</enlace>
+    <precio>2.80</precio>
+    <material>Algodón</material>
+    <grosor>Sport</grosor>
+    <color>Rosa pastel</color>
+    <metros>125</metros>
+    <lavado>Lavado a máquina 30°C</lavado>
+    <categoria>Algodón</categoria>
+  </producto>
+
+  <producto>
+    <nombre>Algodón Reciclado 100g</nombre>
+    <descripcion>Algodón reciclado resistente, perfecto para bolsos, cestas y proyectos de hogar. Buena definición de punto.</descripcion>
+    <imagen>static/lanas/algodon2.jpg</imagen>
+    <enlace>algodon-reciclado-100g.html</enlace>
+    <precio>4.60</precio>
+    <material>Algodón</material>
+    <grosor>Worsted</grosor>
+    <color>Verde oliva</color>
+    <metros>190</metros>
+    <lavado>Lavado a máquina 30°C</lavado>
+    <categoria>Algodón</categoria>
+  </producto>
+
+  <!-- CATEGORÍA: POLIÉSTER -->
+  <producto>
+    <nombre>Hilo Chenille Suave 100g</nombre>
+    <descripcion>Chenille de poliéster ultra suave para mantas, peluches y amigurumis con acabado aterciopelado.</descripcion>
+    <imagen>static/lanas/poliester1.jpg</imagen>
+    <enlace>chenille-suave-100g.html</enlace>
+    <precio>3.90</precio>
+    <material>Poliéster</material>
+    <grosor>Bulky</grosor>
+    <color>Beige</color>
+    <metros>110</metros>
+    <lavado>Lavado a mano</lavado>
+    <categoria>Poliéster</categoria>
+  </producto>
+
+  <producto>
+    <nombre>Hilo Microfibra Brillante 50g</nombre>
+    <descripcion>Microfibra de poliéster con ligero brillo, ideal para detalles decorativos y prendas con toque luminoso.</descripcion>
+    <imagen>static/lanas/poliester2.jpg</imagen>
+    <enlace>microfibra-brillante-50g.html</enlace>
+    <precio>2.60</precio>
+    <material>Poliéster</material>
+    <grosor>Fingering</grosor>
+    <color>Plata</color>
+    <metros>150</metros>
+    <lavado>Lavado a mano / no planchar</lavado>
+    <categoria>Poliéster</categoria>
+  </producto>
+
+  <!-- CATEGORÍA: MIX (para probar detección) -->
+  <producto>
+    <nombre>Mezcla Merino + Alpaca 100g</nombre>
+    <descripcion>Mezcla equilibrada con merino y alpaca: calidez, suavidad y volumen. Ideal para prendas de invierno con acabado premium.</descripcion>
+    <imagen>static/lanas/mix1.jpg</imagen>
+    <enlace>mezcla-merino-alpaca-100g.html</enlace>
+    <precio>9.40</precio>
+    <material>Merino/Alpaca</material>
+    <grosor>DK</grosor>
+    <color>Burdeos</color>
+    <metros>220</metros>
+    <lavado>Lavado a mano / secado plano</lavado>
+    <categoria>Mix</categoria>
+  </producto>
+
+  <producto>
+    <nombre>Algodón + Poliéster Anti-pilling 100g</nombre>
+    <descripcion>Mezcla práctica para uso diario: resistente, fácil de cuidar y con buen comportamiento frente al pilling. Perfecta para prendas infantiles.</descripcion>
+    <imagen>static/lanas/mix2.jpg</imagen>
+    <enlace>algodon-poliester-antipilling-100g.html</enlace>
+    <precio>5.30</precio>
+    <material>Algodón/Poliéster</material>
+    <grosor>Worsted</grosor>
+    <color>Azul claro</color>
+    <metros>210</metros>
+    <lavado>Lavado a máquina 30°C</lavado>
+    <categoria>Mix</categoria>
+  </producto>
+</productos>

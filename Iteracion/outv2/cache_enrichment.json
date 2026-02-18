@@ -1,0 +1,97 @@
+{
+  "8e95425cfd3ca533b13e9cd7f2472bea1091f208": {
+    "slug": "auriculares-bluetooth-anc-soundpeak",
+    "short_desc": "Auriculares inalámbricos con ANC, transparencia y carga USB-C.",
+    "bullets": [
+      "Cancelación activa de ruido",
+      "Modo transparencia",
+      "Estuche de carga USB-C"
+    ],
+    "tags": [
+      "audio",
+      "bluetooth",
+      "anc",
+      "soundpeak",
+      "negro",
+      "30_horas_batería"
+    ],
+    "seo_title": "Auriculares Bluetooth ANC SoundPeak - 30h Batería",
+    "seo_description": "Auriculares inalámbricos con cancelación activa de ruido y modo transparencia. Perfectos para cualquier entorno."
+  },
+  "1a2519adce35a0092c5d69581085e00af985f075": {
+    "slug": "teclado-mecanico-compacto-75",
+    "short_desc": "Teclado mecánico 75% con switches táctiles, iluminación RGB y cable USB-C desmontable.",
+    "bullets": [
+      "Switches táctiles",
+      "Iluminación RGB",
+      "Cable USB-C desmontable"
+    ],
+    "tags": [
+      "periféricos",
+      "teclado_mecánico",
+      "75",
+      "rgb",
+      "usb_c",
+      "keyforge"
+    ],
+    "seo_title": "Teclado Mecánico 75% KeyForge - Switches Táctiles, RGB y Cab",
+    "seo_description": "Teclado mecánico compacto 75% con switches táctiles, iluminación RGB y cable USB-C desmontable. Ideal para setups y trabajo."
+  },
+  "48933aa8c4c04338c0d70b07499be453252fb241": {
+    "slug": "bombilla-inteligente-wifi-e27",
+    "short_desc": "Bombilla LED inteligente E27 con control por app y temporizadores.",
+    "bullets": [
+      "Control remoto via app",
+      "Temporizadores y escenas personalizadas",
+      "Compatibilidad con asistentes de voz"
+    ],
+    "tags": [
+      "smart_home",
+      "bombilla_led",
+      "wifi",
+      "casasmart",
+      "e27",
+      "control_remoto"
+    ],
+    "seo_title": "Bombilla inteligente WiFi E27 - Control remoto y temporizado",
+    "seo_description": "Bombilla LED inteligente E27 con control por app, temporizadores y escenas personalizadas. Compatible con asistentes de voz."
+  },
+  "ec1479e179fd179da725d6bac6a6990b25b92423": {
+    "slug": "ssd-externo-1tb-usb-32",
+    "short_desc": "SSD externo portátil de 1TB con USB 3.2 Gen 2, alta velocidad y resistencia.",
+    "bullets": [
+      "1TB de almacenamiento",
+      "USB 3.2 Gen 2",
+      "Velocidad máxima 1000/950 MB/s"
+    ],
+    "tags": [
+      "almacenamiento",
+      "ssd_externo",
+      "usb_32",
+      "backup",
+      "proyectos",
+      "datarush"
+    ],
+    "seo_title": "SSD Externo 1TB USB 3.2 Gen 2 - DataRush",
+    "seo_description": "SSD externo de 1TB con USB 3.2 Gen 2, alta velocidad y resistencia para backups y proyectos."
+  },
+  "184cefdd1c87afd5abc05558e880ed68556d7ad3": {
+    "slug": "powerbank-20k-pd-65w",
+    "short_desc": "Batería externa 20.000mAh, carga rápida PD 65W, puertos USB-C/USB-A.",
+    "bullets": [
+      "Carga rápida hasta 65W",
+      "2 puertos USB (1 C, 1 A)",
+      "Pantalla de porcentaje"
+    ],
+    "tags": [
+      "powerbank",
+      "20000mah",
+      "pd_65w",
+      "usb_c",
+      "usb_a",
+      "voltgo"
+    ],
+    "seo_title": "Powerbank 20.000mAh PD 65W VoltGo",
+    "seo_description": "Batería externa 20.000mAh, carga rápida PD 65W, puertos USB-C/USB-A. Ideal para viajes y uso diario."
+  }
+}

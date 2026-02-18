@@ -1,0 +1,37 @@
+[
+  {
+    "index": 1,
+    "stage": "enrich",
+    "nombre": "Auriculares Bluetooth ANC",
+    "error": "Unterminated string starting at: line 14 column 7 (char 570)",
+    "ts": "2026-02-17T20:24:41.792519Z"
+  },
+  {
+    "index": 2,
+    "stage": "enrich",
+    "nombre": "Teclado mecánico compacto 75%",
+    "error": "Unterminated string starting at: line 20 column 22 (char 462)",
+    "ts": "2026-02-17T20:27:22.250136Z"
+  },
+  {
+    "index": 3,
+    "stage": "enrich",
+    "nombre": "Bombilla inteligente WiFi E27",
+    "error": "Unterminated string starting at: line 11 column 22 (char 461)",
+    "ts": "2026-02-17T20:30:10.434121Z"
+  },
+  {
+    "index": 4,
+    "stage": "enrich",
+    "nombre": "SSD externo 1TB USB 3.2",
+    "error": "Unterminated string starting at: line 11 column 22 (char 411)",
+    "ts": "2026-02-17T20:32:27.694416Z"
+  },
+  {
+    "index": 5,
+    "stage": "enrich",
+    "nombre": "Powerbank 20.000mAh PD 65W",
+    "error": "Unterminated string starting at: line 11 column 22 (char 455)",
+    "ts": "2026-02-17T20:34:13.429744Z"
+  }
+]

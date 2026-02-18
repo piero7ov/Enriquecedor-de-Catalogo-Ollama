@@ -1,0 +1,173 @@
+{
+  "6503a6ae8c82abc586a33a7e5b1a17c3afacc04a": {
+    "domain_info": {
+      "domain": "yarn_crafts",
+      "confidence": 0.95,
+      "signals": [
+        "fields: grosor/metros/lavado/color"
+      ],
+      "method": "heuristic"
+    },
+    "enriched": {
+      "slug": "auriculares-bluetooth-anc",
+      "short_desc": "Auriculares inalámbricos con cancelación activa de ruido, modo transparencia y estuche de carga USB-C.",
+      "bullets": [
+        "Ideal para proyectos de punto y crochet.",
+        "Ideal para proyectos de punto y crochet.",
+        "Ideal para proyectos de punto y crochet."
+      ],
+      "tags": [
+        "negro",
+        "audio"
+      ],
+      "seo_title": "Auriculares Bluetooth ANC",
+      "seo_description": "Auriculares inalámbricos con cancelación activa de ruido, modo transparencia y estuche de carga USB-C.",
+      "faq": [
+        {
+          "q": "¿Para qué sirve?",
+          "a": "Auriculares inalámbricos con cancelación activa de ruido, modo transparencia y estuche de carga USB-C."
+        },
+        {
+          "q": "¿Qué incluye la compra?",
+          "a": "El producto descrito en la ficha."
+        }
+      ]
+    }
+  },
+  "da6ce9a7c6f7e55d6c6e8d13845233608fd5473c": {
+    "domain_info": {
+      "domain": "generic",
+      "confidence": 0.9,
+      "signals": [
+        "Teclado mecánico"
+      ],
+      "method": "ollama_classify"
+    },
+    "enriched": {
+      "slug": "teclado-mecánico-compacto-75",
+      "short_desc": "Teclado mecánico 75% con switches táctiles, iluminación RGB y cable USB-C desmontable. Ideal para setups y trabajo.",
+      "bullets": [
+        "Producto listo para catálogo.",
+        "Categoría: Periféricos.",
+        "Material: N/D."
+      ],
+      "tags": [
+        "periféricos"
+      ],
+      "seo_title": "Teclado mecánico compacto 75%",
+      "seo_description": "Teclado mecánico 75% con switches táctiles, iluminación RGB y cable USB-C desmontable. Ideal para setups y trabajo.",
+      "faq": [
+        {
+          "q": "¿Para qué sirve?",
+          "a": "Teclado mecánico 75% con switches táctiles, iluminación RGB y cable USB-C desmontable. Ideal para setups y trabajo."
+        },
+        {
+          "q": "¿Qué incluye la compra?",
+          "a": "El producto descrito en la ficha."
+        }
+      ]
+    }
+  },
+  "4ea79eb168f6bca52a4b10570d7414b48ebc4c5a": {
+    "domain_info": {
+      "domain": "generic",
+      "confidence": 0.5,
+      "signals": [
+        "smart home technology"
+      ],
+      "method": "ollama_classify"
+    },
+    "enriched": {
+      "slug": "bombilla-inteligente-wifi-e27",
+      "short_desc": "Bombilla LED inteligente E27 con control por app, temporizadores, escenas y compatibilidad con asistentes de voz.",
+      "bullets": [
+        "Producto listo para catálogo.",
+        "Categoría: Smart Home.",
+        "Material: N/D."
+      ],
+      "tags": [
+        "smart-home"
+      ],
+      "seo_title": "Bombilla inteligente WiFi E27",
+      "seo_description": "Bombilla LED inteligente E27 con control por app, temporizadores, escenas y compatibilidad con asistentes de voz.",
+      "faq": [
+        {
+          "q": "¿Para qué sirve?",
+          "a": "Bombilla LED inteligente E27 con control por app, temporizadores, escenas y compatibilidad con asistentes de voz."
+        },
+        {
+          "q": "¿Qué incluye la compra?",
+          "a": "El producto descrito en la ficha."
+        }
+      ]
+    }
+  },
+  "9d5c664772af9107bf4b72e61f7a049c7bc69967": {
+    "domain_info": {
+      "domain": "generic",
+      "confidence": 0.8,
+      "signals": [
+        "SSD externo portátil de 1TB"
+      ],
+      "method": "ollama_classify"
+    },
+    "enriched": {
+      "slug": "ssd-externo-1tb-usb-32",
+      "short_desc": "SSD externo portátil de 1TB con USB 3.2 Gen 2, carcasa resistente y altas velocidades para backups y proyectos.",
+      "bullets": [
+        "Producto listo para catálogo.",
+        "Categoría: Almacenamiento.",
+        "Material: N/D."
+      ],
+      "tags": [
+        "almacenamiento"
+      ],
+      "seo_title": "SSD externo 1TB USB 3.2",
+      "seo_description": "SSD externo portátil de 1TB con USB 3.2 Gen 2, carcasa resistente y altas velocidades para backups y proyectos.",
+      "faq": [
+        {
+          "q": "¿Para qué sirve?",
+          "a": "SSD externo portátil de 1TB con USB 3.2 Gen 2, carcasa resistente y altas velocidades para backups y proyectos."
+        },
+        {
+          "q": "¿Qué incluye la compra?",
+          "a": "El producto descrito en la ficha."
+        }
+      ]
+    }
+  },
+  "994685535964642cac098fe43379c2f8a7e4ef4d": {
+    "domain_info": {
+      "domain": "footwear",
+      "confidence": 0.85,
+      "signals": [
+        "keywords footwear"
+      ],
+      "method": "heuristic"
+    },
+    "enriched": {
+      "slug": "powerbank-20000mah-pd-65w",
+      "short_desc": "Batería externa 20.000mAh con carga rápida Power Delivery 65W, puertos USB-C/USB-A y pantalla de porcentaje.",
+      "bullets": [
+        "Producto listo para catálogo.",
+        "Categoría: Energía.",
+        "Material: N/D."
+      ],
+      "tags": [
+        "energía"
+      ],
+      "seo_title": "Powerbank 20.000mAh PD 65W",
+      "seo_description": "Batería externa 20.000mAh con carga rápida Power Delivery 65W, puertos USB-C/USB-A y pantalla de porcentaje.",
+      "faq": [
+        {
+          "q": "¿Para qué sirve?",
+          "a": "Batería externa 20.000mAh con carga rápida Power Delivery 65W, puertos USB-C/USB-A y pantalla de porcentaje."
+        },
+        {
+          "q": "¿Qué incluye la compra?",
+          "a": "El producto descrito en la ficha."
+        }
+      ]
+    }
+  }
+}

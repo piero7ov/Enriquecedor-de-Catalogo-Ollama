@@ -1,0 +1,30 @@
+[
+  {
+    "index": 1,
+    "stage": "enrich",
+    "nombre": "Lana Merino Suave 100g",
+    "error": "HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=120)",
+    "ts": "2026-02-17T19:44:02.492603Z"
+  },
+  {
+    "index": 2,
+    "stage": "enrich",
+    "nombre": "Lana Merino Tweed 100g",
+    "error": "HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=120)",
+    "ts": "2026-02-17T19:46:50.960789Z"
+  },
+  {
+    "index": 3,
+    "stage": "enrich",
+    "nombre": "Lana Alpaca Cálida 50g",
+    "error": "HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=120)",
+    "ts": "2026-02-17T19:49:40.157744Z"
+  },
+  {
+    "index": 4,
+    "stage": "enrich",
+    "nombre": "Alpaca Mezcla Premium 100g",
+    "error": "HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=120)",
+    "ts": "2026-02-17T19:52:26.034731Z"
+  }
+]

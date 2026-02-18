@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productPage lang="es" type="3d_printing_product" version="1.0">
+  <meta>
+    <slug>soporte-ergonomico-monitor</slug>
+    <title>Soporte ergonómico para monitor</title>
+    <category>Impresión 3D - Oficina</category>
+
+    <audience>
+      <segment>Oficina / teletrabajo</segment>
+      <segment>Estudiantes</segment>
+      <segment>Gamers / setups</segment>
+    </audience>
+
+    <ctaPrimary>Comprar ahora</ctaPrimary>
+    <ctaSecondary>Ver detalles</ctaSecondary>
+  </meta>
+
+  <hero>
+    <name>Soporte ergonómico para monitor</name>
+    <valueProposition>Eleva tu monitor, mejora la postura y libera espacio en tu escritorio.</valueProposition>
+    <subtitle>Soporte impreso en 3D pensado para setups modernos: estabilidad, ergonomía y orden en una sola pieza.</subtitle>
+  </hero>
+
+  <problem>
+    <items>
+      <item>El monitor queda demasiado bajo y obliga a encorvar el cuello.</item>
+      <item>Falta espacio en el escritorio para teclado, libreta o accesorios.</item>
+      <item>El cableado queda desordenado y estorba en el área de trabajo.</item>
+    </items>
+  </problem>
+
+  <solution>
+    <overview>
+      Un soporte impreso en 3D que eleva el monitor a una altura más cómoda y mejora la organización del escritorio.
+      Diseñado para ser firme, limpio y fácil de integrar en cualquier setup.
+    </overview>
+    <whatChanges>
+      <change>Postura más cómoda al elevar la pantalla.</change>
+      <change>Más espacio útil bajo el monitor para ordenar accesorios.</change>
+      <change>Setup más limpio y visualmente organizado.</change>
+    </whatChanges>
+  </solution>
+
+  <keyFeatures>
+    <feature>
+      <name>Altura ergonómica</name>
+      <benefit>Mejora la alineación de cuello y espalda durante el uso prolongado.</benefit>
+    </feature>
+    <feature>
+      <name>Diseño estable</name>
+      <benefit>Base firme para monitores, con enfoque en soporte y seguridad.</benefit>
+    </feature>
+    <feature>
+      <name>Espacio inferior aprovechable</name>
+      <benefit>Permite guardar teclado compacto, libreta o accesorios debajo.</benefit>
+    </feature>
+    <feature>
+      <name>Estética minimal</name>
+      <benefit>Encaja con setups modernos sin recargar el escritorio.</benefit>
+    </feature>
+  </keyFeatures>
+
+  <benefits>
+    <items>
+      <item>Mejor ergonomía y comodidad en el día a día.</item>
+      <item>Más orden y espacio en el escritorio.</item>
+      <item>Producto ligero, resistente y fácil de mantener.</item>
+      <item>Ideal para oficina, estudio o gaming.</item>
+    </items>
+  </benefits>
+
+  <domain>
+    <field name="business_model" type="string">ecommerce</field>
+    <field name="currency" type="string">EUR</field>
+
+    <catalog>
+      <item>
+        <name>Soporte ergonómico para monitor</name>
+        <description>Soporte impreso en 3D para elevar el monitor, mejorar la postura y ganar espacio en el escritorio.</description>
+        <image>static/producto1.jpg</image>
+        <link>producto1.html</link>
+        <price>24.90</price>
+        <material>PLA</material>
+        <size>grande</size>
+        <category>Oficina</category>
+      </item>
+    </catalog>
+
+    <materials>
+      <material name="PLA" />
+    </materials>
+
+    <printers>
+      <printer name="FDM_Printer_Default" technology="FDM" nozzle="0.4" />
+    </printers>
+
+    <order_flow>
+      <status>nuevo</status>
+      <status>pagado</status>
+      <status>en_impresion</status>
+      <status>postproceso</status>
+      <status>enviado</status>
+      <status>entregado</status>
+    </order_flow>
+  </domain>
+
+  <faq>
+    <qa>
+      <q>¿Es compatible con cualquier monitor?</q>
+      <a>Sí, es compatible con la mayoría de monitores estándar, siempre que la base encaje en la superficie del soporte.</a>
+    </qa>
+    <qa>
+      <q>¿Qué material se utiliza?</q>
+      <a>Se imprime en PLA, ideal para escritorio por su rigidez, buen acabado y estabilidad.</a>
+    </qa>
+    <qa>
+      <q>¿Se puede elegir color?</q>
+      <a>Depende del stock de filamento disponible. Se puede solicitar un color concreto si está disponible.</a>
+    </qa>
+    <qa>
+      <q>¿Cuánto tarda el pedido?</q>
+      <a>Normalmente se imprime y prepara en 1–3 días según la cola de trabajos y el postprocesado.</a>
+    </qa>
+  </faq>
+
+  <footer>
+    <summary>Producto impreso en 3D orientado a ergonomía y orden en escritorio, con flujo de pedido y datos listos para demo.</summary>
+  </footer>
+</productPage>

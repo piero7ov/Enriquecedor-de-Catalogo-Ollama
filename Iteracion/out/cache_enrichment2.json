@@ -1,0 +1,438 @@
+{
+  "64245a64b009316cdcee1804f2d98e0c098cc20c": {
+    "domain_info": {
+      "domain": "apparel",
+      "confidence": 0.9,
+      "signals": [
+        "Lana Merino para prendas",
+        "Ideal para piel delicada",
+        "Buen drapeado y acabado uniforme",
+        "Material de alta calidad"
+      ],
+      "method": "ollama_classify"
+    },
+    "enriched": {
+      "slug": "lana-merino-suave-100g",
+      "short_desc": "Ovillo de merino extra suave, ideal para prendas cálidas y delicadas con la piel. Buen drapeado y acabado uniforme.",
+      "bullets": [
+        "Ideal para merino.",
+        "Material: Merino.",
+        "Producto pensado para un uso práctico y claro."
+      ],
+      "tags": [
+        "merino",
+        "crema",
+        "apparel",
+        "catalogo",
+        "producto",
+        "oferta",
+        "recomendado"
+      ],
+      "seo_title": "Lana Merino Suave 100g",
+      "seo_description": "Ovillo de merino extra suave, ideal para prendas cálidas y delicadas con la piel. Buen drapeado y acabado uniforme.",
+      "faq": [
+        {
+          "q": "¿Cómo se usa?",
+          "a": "Se utiliza según el propósito descrito en la ficha del producto."
+        },
+        {
+          "q": "¿Se puede personalizar?",
+          "a": "Depende del producto. Si aplica, se puede ajustar bajo pedido."
+        }
+      ]
+    }
+  },
+  "bdaa03429f6d639918fe320a65daacd0890f5db8": {
+    "domain_info": {
+      "domain": "apparel",
+      "confidence": 0.9,
+      "signals": [
+        "Lana Merino Tweed utilizada en proyectos de moda.",
+        "Perfecta para gorros, cuellos y jerséis.",
+        "Material de alta calidad con motitas tipo tweed.",
+        "Se utiliza en la fabricación de prendas."
+      ],
+      "method": "ollama_classify"
+    },
+    "enriched": {
+      "slug": "lana-merino-tweed-100g",
+      "short_desc": "Merino con motitas tipo tweed para proyectos con textura y personalidad. Perfecta para gorros, cuellos y jerséis.",
+      "bullets": [
+        "Ideal para merino.",
+        "Material: Merino.",
+        "Producto pensado para un uso práctico y claro."
+      ],
+      "tags": [
+        "merino",
+        "gris-jaspeado",
+        "apparel",
+        "catalogo",
+        "producto",
+        "oferta",
+        "recomendado"
+      ],
+      "seo_title": "Lana Merino Tweed 100g",
+      "seo_description": "Merino con motitas tipo tweed para proyectos con textura y personalidad. Perfecta para gorros, cuellos y jerséis.",
+      "faq": [
+        {
+          "q": "¿Cómo se usa?",
+          "a": "Se utiliza según el propósito descrito en la ficha del producto."
+        },
+        {
+          "q": "¿Se puede personalizar?",
+          "a": "Depende del producto. Si aplica, se puede ajustar bajo pedido."
+        }
+      ]
+    }
+  },
+  "ab9ff082f3e09b59a91707f2f9be583a44596d7f": {
+    "domain_info": {
+      "domain": "apparel",
+      "confidence": 0.9,
+      "signals": [
+        "Lana de alpaca para accesorios y prendas.",
+        "Ideal para invierno y abrigos ligeros.",
+        "Material natural con gran capacidad térmica.",
+        "Fingering grosor, color chocolate."
+      ],
+      "method": "ollama_classify"
+    },
+    "enriched": {
+      "slug": "lana-alpaca-calida-50g",
+      "short_desc": "Alpaca con tacto sedoso y gran capacidad térmica. Ideal para accesorios de invierno y prendas ligeras pero abrigadas.",
+      "bullets": [
+        "Ideal para alpaca.",
+        "Material: Alpaca.",
+        "Producto pensado para un uso práctico y claro."
+      ],
+      "tags": [
+        "alpaca",
+        "chocolate",
+        "apparel",
+        "catalogo",
+        "producto",
+        "oferta",
+        "recomendado"
+      ],
+      "seo_title": "Lana Alpaca Cálida 50g",
+      "seo_description": "Alpaca con tacto sedoso y gran capacidad térmica. Ideal para accesorios de invierno y prendas ligeras pero abrigadas.",
+      "faq": [
+        {
+          "q": "¿Cómo se usa?",
+          "a": "Se utiliza según el propósito descrito en la ficha del producto."
+        },
+        {
+          "q": "¿Se puede personalizar?",
+          "a": "Depende del producto. Si aplica, se puede ajustar bajo pedido."
+        }
+      ]
+    }
+  },
+  "0885832cd3b2477308f000d184e7be2b1ee4be83": {
+    "domain_info": {
+      "domain": "apparel",
+      "confidence": 0.9,
+      "signals": [
+        "Mezcla para chales, bufandas y cárdigans.",
+        "Acabado esponjoso y elegante.",
+        "Material de alta calidad: alpaca.",
+        "Destinado a la moda y el vestuario."
+      ],
+      "method": "ollama_classify"
+    },
+    "enriched": {
+      "slug": "alpaca-mezcla-premium-100g",
+      "short_desc": "Mezcla premium con alpaca para un acabado esponjoso y elegante. Recomendado para chales, bufandas y cárdigans.",
+      "bullets": [
+        "Ideal para alpaca.",
+        "Material: Alpaca.",
+        "Producto pensado para un uso práctico y claro."
+      ],
+      "tags": [
+        "alpaca",
+        "azul-noche",
+        "apparel",
+        "catalogo",
+        "producto",
+        "oferta",
+        "recomendado"
+      ],
+      "seo_title": "Alpaca Mezcla Premium 100g",
+      "seo_description": "Mezcla premium con alpaca para un acabado esponjoso y elegante. Recomendado para chales, bufandas y cárdigans.",
+      "faq": [
+        {
+          "q": "¿Cómo se usa?",
+          "a": "Se utiliza según el propósito descrito en la ficha del producto."
+        },
+        {
+          "q": "¿Se puede personalizar?",
+          "a": "Depende del producto. Si aplica, se puede ajustar bajo pedido."
+        }
+      ]
+    }
+  },
+  "fc9248704b1f09ddc03a064b932aacbfa112a071": {
+    "domain_info": {
+      "domain": "generic",
+      "confidence": 0.0,
+      "signals": [
+        "No se especifica un dominio específico.",
+        "El producto es una lana de algodón, lo que no encaja con los dominios permitidos."
+      ],
+      "method": "ollama_classify"
+    },
+    "enriched": {
+      "slug": "algodon-peinado-50g",
+      "short_desc": "Hilo de algodón peinado limpio, ideal para amigurumis y proyectos frescos.",
+      "bullets": [
+        "Acabado limpio",
+        "Ideal para amigurumis",
+        "Proyectos frescos"
+      ],
+      "tags": [
+        "algodon",
+        "rosa-pastel",
+        "peinado",
+        "amigurumis",
+        "top-de-verano",
+        "lana",
+        "fresco",
+        "sport",
+        "125-metros",
+        "lavable-a-maquina"
+      ],
+      "seo_title": "Algodón Peinado 50g - Hilo fresco y limpio",
+      "seo_description": "Hilo de algodón peinado para amigurumis y proyectos frescos. Lava fácilmente en la máquina.",
+      "faq": [
+        {
+          "q": "¿Para qué es este hilo?",
+          "a": "Es ideal para amigurumis, tops de verano y proyectos frescos."
+        },
+        {
+          "q": "Cuáles son los beneficios del acabado limpio?",
+          "a": "El acabado limpio facilita la peinada y el cuidado del hilo."
+        }
+      ]
+    }
+  },
+  "a672a7baaf97e849d689fd26097f4bd62354fbbe": {
+    "domain_info": {
+      "domain": "generic",
+      "confidence": 0.0,
+      "signals": [
+        "Material reciclado",
+        "Bolsos, cestas, proyectos de hogar",
+        "Lavado a máquina",
+        "Algodón"
+      ],
+      "method": "ollama_classify"
+    },
+    "enriched": {
+      "slug": "algodon-reciclado-100g",
+      "short_desc": "Algodón reciclado resistente para bolsos y cestas.",
+      "bullets": [
+        "Material reciclado",
+        "Buena definición de punto",
+        "Lavable a máquina"
+      ],
+      "tags": [
+        "algodon",
+        "verde-oliva",
+        "reciclado",
+        "bolsos",
+        "cestas",
+        "proyectos-de-hogar",
+        "generic"
+      ],
+      "seo_title": "Algodón reciclado 100g - Material resistente para bolsos y c",
+      "seo_description": "Algodón reciclado resistente, perfecto para bolsos, cestas y proyectos de hogar. Buena definición de punto.",
+      "faq": [
+        {
+          "q": "¿Es seguro lavarlo a máquina?",
+          "a": "Sí, se puede lavar a máquina a 30°C."
+        },
+        {
+          "q": "Qué tipo de proyecto puedo hacer con este algodón?",
+          "a": "Ideal para bolsos, cestas y otros proyectos de hogar."
+        }
+      ]
+    }
+  },
+  "f090c40dd8d4b0f684d49891fbc1c91b751e76f3": {
+    "domain_info": {
+      "domain": "generic",
+      "confidence": 0.0,
+      "signals": [
+        "Chenille para manta",
+        "Peluche",
+        "Amigurumi",
+        "Lavado a mano"
+      ],
+      "method": "ollama_classify"
+    },
+    "enriched": {
+      "slug": "chenille-suave-100g",
+      "short_desc": "Chenille de poliéster ultra suave para manta, peluche y amigurumi.",
+      "bullets": [
+        "Ultra suave",
+        "Acabado aterciopelado",
+        "Lavable a mano"
+      ],
+      "tags": [
+        "poliester",
+        "beige",
+        "chenille",
+        "manta",
+        "peluche",
+        "amigurumi",
+        "bulky",
+        "lavable-a-mano",
+        "generic"
+      ],
+      "seo_title": "Chenille Suave Poliéster",
+      "seo_description": "Chenille de poliéster ultra suave para manta, peluche y amigurumi. Lavable a mano.",
+      "faq": [
+        {
+          "q": "¿Para qué se usa?",
+          "a": "Para manta, peluche y amigurumi."
+        },
+        {
+          "q": "Cómo lavar?",
+          "a": "Lavable a mano."
+        }
+      ]
+    }
+  },
+  "ce8a81818a332419193da6972349fdf96da46b48": {
+    "domain_info": {
+      "domain": "3d_printing",
+      "confidence": 0.95,
+      "signals": [
+        "material/keywords 3d"
+      ],
+      "method": "heuristic"
+    },
+    "enriched": {
+      "slug": "microfibra-brillante-50g",
+      "short_desc": "Microfibra de poliéster con brillo para detalles decorativos y prendas luminosas.",
+      "bullets": [
+        "Ideal para detalles decorativos",
+        "Toque luminoso en prendas",
+        "Fingering grosor"
+      ],
+      "tags": [
+        "poliester",
+        "plata",
+        "microfibra",
+        "brillo",
+        "detalles-decorativos",
+        "prendas-luminosas",
+        "3d_printing"
+      ],
+      "seo_title": "Microfibra Brillante 50g - Detalles Decorativos y Prendas Lu",
+      "seo_description": "Microfibra de poliéster con brillo para detalles decorativos y prendas luminosas. Fingering grosor.",
+      "faq": [
+        {
+          "q": "¿Para qué se usa?",
+          "a": "Ideal para detalles decorativos y prendas con toque luminoso."
+        },
+        {
+          "q": "Cómo cuidar la microfibra?",
+          "a": "Lavado a mano / no planchar"
+        }
+      ]
+    }
+  },
+  "563e5b8597d3dddbb6904a39c56063ec2b5a955e": {
+    "domain_info": {
+      "domain": "apparel",
+      "confidence": 0.9,
+      "signals": [
+        "Lana de alta calidad",
+        "Mezcla de dos tipos de lana",
+        "Ideal para prendas",
+        "Acabado premium"
+      ],
+      "method": "ollama_classify"
+    },
+    "enriched": {
+      "slug": "mezcla-merino-alpaca",
+      "short_desc": "Mezcla equilibrada de merino y alpaca para prendas de invierno.",
+      "bullets": [
+        "Calidez y suavidad perfecta",
+        "Volumen ideal para prendas",
+        "Acabado premium",
+        "Lana de alta calidad",
+        "Ideal para invierno"
+      ],
+      "tags": [
+        "mix",
+        "merinoalpaca",
+        "burdeos",
+        "mezcla",
+        "merino",
+        "alpaca",
+        "premium",
+        "invierno",
+        "calidez",
+        "suavidad"
+      ],
+      "seo_title": "Mezcla Merino Alpaca - Alta Calidad para Invierno",
+      "seo_description": "Mezcla equilibrada de merino y alpaca, ideal para prendas de invierno con acabado premium.",
+      "faq": [
+        {
+          "q": "¿Qué tipo de lana es?",
+          "a": "Es una mezcla de merino y alpaca."
+        },
+        {
+          "q": "Para qué tipo de prenda es ideal?",
+          "a": "Ideal para prendas de invierno."
+        }
+      ]
+    }
+  },
+  "5d13a0acfbba5001b27551022e56ffa742ac0d51": {
+    "domain_info": {
+      "domain": "apparel",
+      "confidence": 0.9,
+      "signals": [
+        "Mezcla práctica para uso diario.",
+        "Perfecta para prendas infantiles.",
+        "Lavado a máquina 30°C."
+      ],
+      "method": "ollama_classify"
+    },
+    "enriched": {
+      "slug": "algodon-poliester-antipilling",
+      "short_desc": "Mezcla resistente para prendas infantiles.",
+      "bullets": [
+        "Resistente al pilling",
+        "Fácil de lavar",
+        "Perfecta para niños"
+      ],
+      "tags": [
+        "mix",
+        "algodonpoliester",
+        "azul-claro",
+        "algodon",
+        "poliester",
+        "anti-pilling",
+        "prendas-infantiles",
+        "lavable-a-maquina",
+        "apparel"
+      ],
+      "seo_title": "Mezcla Anti-Pilling Algodón Poliéster",
+      "seo_description": "Mezcla resistente para prendas infantiles, fácil de lavar y antipilling.",
+      "faq": [
+        {
+          "q": "¿Es adecuada para niños?",
+          "a": "Sí, perfecta para prendas infantiles."
+        },
+        {
+          "q": "Cómo se lava?",
+          "a": "Lava a máquina a 30°C."
+        }
+      ]
+    }
+  }
+}

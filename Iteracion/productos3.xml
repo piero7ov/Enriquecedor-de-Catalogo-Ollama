@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+  <!-- CATEGORÍA: AUDIO -->
+  <producto>
+    <nombre>Auriculares Bluetooth ANC</nombre>
+    <descripcion>Auriculares inalámbricos con cancelación activa de ruido, modo transparencia y estuche de carga USB-C.</descripcion>
+    <imagen>static/electronica/audio1.jpg</imagen>
+    <enlace>auriculares-bt-anc.html</enlace>
+    <precio>59.90</precio>
+    <marca>SoundPeak</marca>
+    <modelo>SP-ANC200</modelo>
+    <categoria>Audio</categoria>
+    <color>Negro</color>
+    <conectividad>Bluetooth 5.3</conectividad>
+    <bateria_horas>30</bateria_horas>
+    <garantia_meses>24</garantia_meses>
+  </producto>
+
+  <!-- CATEGORÍA: PERIFÉRICOS -->
+  <producto>
+    <nombre>Teclado mecánico compacto 75%</nombre>
+    <descripcion>Teclado mecánico 75% con switches táctiles, iluminación RGB y cable USB-C desmontable. Ideal para setups y trabajo.</descripcion>
+    <imagen>static/electronica/perifericos1.jpg</imagen>
+    <enlace>teclado-mecanico-75.html</enlace>
+    <precio>74.90</precio>
+    <marca>KeyForge</marca>
+    <modelo>KF-75T</modelo>
+    <categoria>Periféricos</categoria>
+    <layout>ES</layout>
+    <conexion>USB-C</conexion>
+    <iluminacion>RGB</iluminacion>
+    <garantia_meses>24</garantia_meses>
+  </producto>
+
+  <!-- CATEGORÍA: SMART HOME -->
+  <producto>
+    <nombre>Bombilla inteligente WiFi E27</nombre>
+    <descripcion>Bombilla LED inteligente E27 con control por app, temporizadores, escenas y compatibilidad con asistentes de voz.</descripcion>
+    <imagen>static/electronica/smarthome1.jpg</imagen>
+    <enlace>bombilla-inteligente-e27.html</enlace>
+    <precio>12.90</precio>
+    <marca>CasaSmart</marca>
+    <modelo>CS-E27W</modelo>
+    <categoria>Smart Home</categoria>
+    <potencia_w>9</potencia_w>
+    <temperatura_color>K (2700-6500)</temperatura_color>
+    <conectividad>WiFi 2.4GHz</conectividad>
+    <garantia_meses>24</garantia_meses>
+  </producto>
+
+  <!-- CATEGORÍA: ALMACENAMIENTO -->
+  <producto>
+    <nombre>SSD externo 1TB USB 3.2</nombre>
+    <descripcion>SSD externo portátil de 1TB con USB 3.2 Gen 2, carcasa resistente y altas velocidades para backups y proyectos.</descripcion>
+    <imagen>static/electronica/storage1.jpg</imagen>
+    <enlace>ssd-externo-1tb.html</enlace>
+    <precio>89.90</precio>
+    <marca>DataRush</marca>
+    <modelo>DR-SSD1T</modelo>
+    <categoria>Almacenamiento</categoria>
+    <interfaz>USB 3.2 Gen 2</interfaz>
+    <velocidad_lectura_mb>1000</velocidad_lectura_mb>
+    <velocidad_escritura_mb>950</velocidad_escritura_mb>
+    <garantia_meses>36</garantia_meses>
+  </producto>
+
+  <!-- CATEGORÍA: ENERGÍA -->
+  <producto>
+    <nombre>Powerbank 20.000mAh PD 65W</nombre>
+    <descripcion>Batería externa 20.000mAh con carga rápida Power Delivery 65W, puertos USB-C/USB-A y pantalla de porcentaje.</descripcion>
+    <imagen>static/electronica/energia1.jpg</imagen>
+    <enlace>powerbank-20000mah-65w.html</enlace>
+    <precio>49.90</precio>
+    <marca>VoltGo</marca>
+    <modelo>VG-PD65</modelo>
+    <categoria>Energía</categoria>
+    <capacidad_mah>20000</capacidad_mah>
+    <salida_max_w>65</salida_max_w>
+    <puertos>2xUSB-C + 1xUSB-A</puertos>
+    <garantia_meses>24</garantia_meses>
+  </producto>
+</productos>

@@ -1,0 +1,453 @@
+{
+  "generated_at": "2026-02-17T19:33:53.319897Z",
+  "source_xml": "productos.xml",
+  "ollama": {
+    "enabled": true,
+    "url": "http://127.0.0.1:11434/api/generate",
+    "model": "qwen2.5-coder:7b",
+    "temperature": 0.2,
+    "num_predict": {
+      "classify": 160,
+      "enrich": 320
+    },
+    "timeouts": {
+      "connect": 10,
+      "classify_read": 60,
+      "enrich_read": 120
+    }
+  },
+  "domain_mode": "auto",
+  "count": 9,
+  "products": [
+    {
+      "nombre": "Soporte ergonómico para monitor",
+      "descripcion": "Soporte impreso en 3D para elevar el monitor, mejorar la postura y ganar espacio en el escritorio.",
+      "imagen": "static/producto1.jpg",
+      "enlace": "producto1.html",
+      "precio": "24.90",
+      "material": "PLA",
+      "tamano": "grande",
+      "categoria": "Oficina",
+      "_domain": {
+        "domain": "3d_printing",
+        "confidence": 0.95,
+        "signals": [
+          "material/keywords 3d"
+        ],
+        "method": "heuristic"
+      },
+      "slug": "soporte-ergonomico-monitor",
+      "short_desc": "Soporte ergonómico para monitor impreso en 3D.",
+      "bullets": [
+        "Mejora la postura al elevar el monitor.",
+        "Ahorra espacio en el escritorio.",
+        "Material: PLA."
+      ],
+      "tags": [
+        "oficina",
+        "pla",
+        "grande",
+        "soporte-monitor",
+        "ergonomico",
+        "3d-printing",
+        "3d_printing"
+      ],
+      "seo_title": "Soporte Ergonómico para Monitor Impreso en 3D",
+      "seo_description": "Impresión 3D de soporte ergonómico para monitor. Mejora la postura y ahorra espacio.",
+      "faq": [
+        {
+          "q": "¿Qué material se utiliza?",
+          "a": "Se usa PLA."
+        },
+        {
+          "q": "Para qué tipo de escritorio es adecuado?",
+          "a": "Es ideal para escritorios de oficina."
+        }
+      ]
+    },
+    {
+      "nombre": "Organizador modular de escritorio",
+      "descripcion": "Organizador compuesto por módulos encajables para bolígrafos, notas, USB y pequeños accesorios.",
+      "imagen": "static/producto2.jpg",
+      "enlace": "producto2.html",
+      "precio": "19.90",
+      "material": "PLA",
+      "tamano": "mediano",
+      "categoria": "Oficina",
+      "_domain": {
+        "domain": "3d_printing",
+        "confidence": 0.95,
+        "signals": [
+          "material/keywords 3d"
+        ],
+        "method": "heuristic"
+      },
+      "slug": "organizador-modular-escritorio",
+      "short_desc": "Organizador de escritorio en PLA con módulos para bolígrafos, notas y USB.",
+      "bullets": [
+        "Módulos encajables",
+        "Material: PLA",
+        "Personalización fácil"
+      ],
+      "tags": [
+        "oficina",
+        "pla",
+        "mediano",
+        "organizador",
+        "escritorio",
+        "modulos",
+        "personalizacion",
+        "3d_printing"
+      ],
+      "seo_title": "Organizador modular de escritorio en PLA",
+      "seo_description": "Organizador de escritorio en PLA con módulos para bolígrafos, notas y USB. Personaliza fácilmente.",
+      "faq": [
+        {
+          "q": "¿Qué tipo de material es?",
+          "a": "El organizador está hecho de PLA."
+        },
+        {
+          "q": "Puedo personalizarlo?",
+          "a": "Sí, puedes encajar diferentes módulos según tus necesidades."
+        }
+      ]
+    },
+    {
+      "nombre": "Base compacta para auriculares",
+      "descripcion": "Soporte vertical minimalista para auriculares, ideal para escritorios con poco espacio.",
+      "imagen": "static/producto3.jpg",
+      "enlace": "producto3.html",
+      "precio": "14.90",
+      "material": "PETG",
+      "tamano": "pequeño",
+      "categoria": "Oficina",
+      "_domain": {
+        "domain": "3d_printing",
+        "confidence": 0.95,
+        "signals": [
+          "material/keywords 3d"
+        ],
+        "method": "heuristic"
+      },
+      "slug": "base-compacta-auriculares",
+      "short_desc": "Soporte vertical minimalista para auriculares.",
+      "bullets": [
+        "Ideal para escritorios con poco espacio.",
+        "Material PETG resistente.",
+        "Tamaño pequeño y compacto."
+      ],
+      "tags": [
+        "oficina",
+        "petg",
+        "pequeno",
+        "3dprinting",
+        "auriculares",
+        "soporte-vertical",
+        "minimalista",
+        "escritorio",
+        "3d_printing"
+      ],
+      "seo_title": "Base Compacta para Auriculares - Soporte Minimalista",
+      "seo_description": "Soporte compacto y minimalista para auriculares, ideal para escritorios con poco espacio. Material PETG resistente.",
+      "faq": [
+        {
+          "q": "¿Es adecuado para escritorios pequeños?",
+          "a": "Sí, es perfecto para escritorios con poco espacio."
+        },
+        {
+          "q": "Cuál es el material del soporte?",
+          "a": "El soporte está hecho de PETG, un material resistente y fácil de imprimir."
+        }
+      ]
+    },
+    {
+      "nombre": "Llavero personalizado con nickname",
+      "descripcion": "Llavero impreso en 3D con el nombre o nickname que el cliente elija, ideal para gamers y regalos.",
+      "imagen": "static/producto4.jpg",
+      "enlace": "producto4.html",
+      "precio": "7.50",
+      "material": "PLA",
+      "tamano": "pequeño",
+      "categoria": "Personalizado",
+      "_domain": {
+        "domain": "3d_printing",
+        "confidence": 0.95,
+        "signals": [
+          "material/keywords 3d"
+        ],
+        "method": "heuristic"
+      },
+      "slug": "llavero-personalizado-nickname",
+      "short_desc": "Llavero 3D con nombre o apodo elegido por el cliente.",
+      "bullets": [
+        "Personalización fácil",
+        "Ideal para gamers y regalos",
+        "Material de alta calidad: PLA"
+      ],
+      "tags": [
+        "personalizado",
+        "pla",
+        "pequeno",
+        "llavero",
+        "3d-printing",
+        "nombre",
+        "apodo",
+        "gamers",
+        "regalo",
+        "pequeno-tamano"
+      ],
+      "seo_title": "Llavero personalizado 3D con nickname",
+      "seo_description": "Impresión en 3D de llaveros personalizados con nombre o apodo. Ideal para gamers y regalos.",
+      "faq": [
+        {
+          "q": "¿Qué tipo de material se utiliza?",
+          "a": "Se usa el material PLA, conocido por su durabilidad y facilidad de impresión."
+        },
+        {
+          "q": "Puedo elegir cualquier nombre o apodo?",
+          "a": "Sí, puedes elegir cualquier nombre o apodo que desees para personalizar tu llavero."
+        }
+      ]
+    },
+    {
+      "nombre": "Placa de nombre para escritorio",
+      "descripcion": "Placa con base para escritorio con nombre, perfecta para oficinas y despachos.",
+      "imagen": "static/producto5.jpg",
+      "enlace": "producto5.html",
+      "precio": "15.00",
+      "material": "PLA",
+      "tamano": "mediano",
+      "categoria": "Personalizado",
+      "_domain": {
+        "domain": "3d_printing",
+        "confidence": 0.95,
+        "signals": [
+          "material/keywords 3d"
+        ],
+        "method": "heuristic"
+      },
+      "slug": "placa-nombre-escritorio",
+      "short_desc": "Placa con nombre para escritorio personalizada.",
+      "bullets": [
+        "Base para escritorio",
+        "Nombre personalizado",
+        "Perfecta para oficinas"
+      ],
+      "tags": [
+        "personalizado",
+        "pla",
+        "mediano",
+        "placa",
+        "escritorio",
+        "nombre",
+        "3d-printing",
+        "3d_printing"
+      ],
+      "seo_title": "Placa de nombre para escritorio | Personalizada",
+      "seo_description": "Placa con base para escritorio personalizada. Perfecta para oficinas y despachos.",
+      "faq": [
+        {
+          "q": "¿Qué material se utiliza?",
+          "a": "Se utiliza PLA."
+        },
+        {
+          "q": "Tamaño de la placa?",
+          "a": "Mediano."
+        }
+      ]
+    },
+    {
+      "nombre": "Soporte para móvil con nombre",
+      "descripcion": "Soporte para móvil con el nombre del usuario en la base, ideal para escritorios y setups.",
+      "imagen": "static/producto6.jpg",
+      "enlace": "producto6.html",
+      "precio": "12.90",
+      "material": "PETG",
+      "tamano": "pequeño",
+      "categoria": "Personalizado",
+      "_domain": {
+        "domain": "3d_printing",
+        "confidence": 0.95,
+        "signals": [
+          "material/keywords 3d"
+        ],
+        "method": "heuristic"
+      },
+      "slug": "soporte-movil-personalizado",
+      "short_desc": "Soporte para móvil con nombre del usuario en la base.",
+      "bullets": [
+        "Ideal para escritorios y setups",
+        "Material PETG de alta calidad",
+        "Tamaño pequeño y práctico"
+      ],
+      "tags": [
+        "personalizado",
+        "petg",
+        "pequeno",
+        "soporte-movil",
+        "3d-printing",
+        "escritorio",
+        "3d_printing"
+      ],
+      "seo_title": "Soporte para móvil personalizado",
+      "seo_description": "Personaliza tu escritorio con un soporte móvil que incluye el nombre del usuario. Material PETG de alta calidad.",
+      "faq": [
+        {
+          "q": "¿Qué material se usa en el soporte?",
+          "a": "Se utiliza material PETG, conocido por su durabilidad y facilidad de impresión."
+        },
+        {
+          "q": "Es adecuado para escritorios?",
+          "a": "Sí, es ideal para escritorios debido a su tamaño pequeño y diseño práctico."
+        }
+      ]
+    },
+    {
+      "nombre": "Miniatura de personaje gamer",
+      "descripcion": "Figura en pose dinámica pensada para personalización de armadura, casco y detalles gamer.",
+      "imagen": "static/producto7.jpg",
+      "enlace": "producto7.html",
+      "precio": "22.00",
+      "material": "Resina",
+      "tamano": "mediano",
+      "categoria": "Figuras",
+      "_domain": {
+        "domain": "3d_printing",
+        "confidence": 0.95,
+        "signals": [
+          "material/keywords 3d"
+        ],
+        "method": "heuristic"
+      },
+      "slug": "miniatura-personaje-gamer",
+      "short_desc": "Figura dinámica para personalizar armaduras y cascos.",
+      "bullets": [
+        "Pose dinámica",
+        "Material: Resina",
+        "Tamaño: Mediano"
+      ],
+      "tags": [
+        "figuras",
+        "resina",
+        "mediano",
+        "3d-printing",
+        "personalizacion",
+        "gamer",
+        "miniatura",
+        "armadura",
+        "casco",
+        "detalles"
+      ],
+      "seo_title": "Miniatura de personaje gamer para impresión 3D",
+      "seo_description": "Figura dinámica en resina para personalizar armaduras y cascos. Impresión 3D.",
+      "faq": [
+        {
+          "q": "¿Qué tipo de material se usa?",
+          "a": "Se utiliza resina."
+        },
+        {
+          "q": "Para qué es esta miniatura?",
+          "a": "Es para personalizar armaduras y cascos de gamer."
+        }
+      ]
+    },
+    {
+      "nombre": "Busto personalizado estilo low-poly",
+      "descripcion": "Busto impreso en 3D con rasgos simplificados tipo low-poly, ideal como pieza decorativa.",
+      "imagen": "static/producto8.jpg",
+      "enlace": "producto8.html",
+      "precio": "29.90",
+      "material": "Resina",
+      "tamano": "grande",
+      "categoria": "Figuras",
+      "_domain": {
+        "domain": "3d_printing",
+        "confidence": 0.95,
+        "signals": [
+          "material/keywords 3d"
+        ],
+        "method": "heuristic"
+      },
+      "slug": "busto-low-poly-personalizado",
+      "short_desc": "Busto en 3D low-poly para decoración personalizada.",
+      "bullets": [
+        "Rasgos simplificados tipo low-poly",
+        "Material: resina",
+        "Tamaño: grande"
+      ],
+      "tags": [
+        "figuras",
+        "resina",
+        "grande",
+        "3d-printing",
+        "low-poly",
+        "decoracion",
+        "personalizado",
+        "piezas",
+        "impreso-en-3d",
+        "tamano-grande"
+      ],
+      "seo_title": "Busto Low-Poly Personalizado",
+      "seo_description": "Busto en 3D low-poly para decoración personalizada. Material de resina, tamaño grande.",
+      "faq": [
+        {
+          "q": "¿Qué es el low-poly?",
+          "a": "El low-poly es un estilo de modelado 3D que utiliza polígonos simples y reducidos."
+        },
+        {
+          "q": "Para qué sirve este busto?",
+          "a": "Es ideal como pieza decorativa personalizada, puede ser usado en hogares o oficinas."
+        }
+      ]
+    },
+    {
+      "nombre": "Mascota poligonal decorativa",
+      "descripcion": "Figura de mascota con diseño poligonal minimalista, perfecta para escritorios y estanterías.",
+      "imagen": "static/producto9.jpg",
+      "enlace": "producto9.html",
+      "precio": "18.50",
+      "material": "PLA",
+      "tamano": "pequeño",
+      "categoria": "Figuras",
+      "_domain": {
+        "domain": "3d_printing",
+        "confidence": 0.95,
+        "signals": [
+          "material/keywords 3d"
+        ],
+        "method": "heuristic"
+      },
+      "slug": "mascota-poligonal-decorativa",
+      "short_desc": "Figura de mascota minimalista para escritorios y estanterías.",
+      "bullets": [
+        "Diseño poligonal minimalista",
+        "Perfecta para decoración",
+        "Material: PLA"
+      ],
+      "tags": [
+        "figuras",
+        "pla",
+        "pequeno",
+        "3dprinting",
+        "mascotas",
+        "decoracion",
+        "plastico",
+        "pequeno-tamano",
+        "minimalismo",
+        "escritorios"
+      ],
+      "seo_title": "Mascota Poligonal Decorativa - Figura Minimalista",
+      "seo_description": "Figura de mascota minimalista poligonal para escritorios y estanterías. Material PLA, tamaño pequeño.",
+      "faq": [
+        {
+          "q": "¿Qué material está hecho?",
+          "a": "Esta figura está hecha en PLA (Polímero Lácteo)"
+        },
+        {
+          "q": "Para qué se usa?",
+          "a": "Es ideal para decorar escritorios y estanterías con un diseño minimalista."
+        }
+      ]
+    }
+  ]
+}
